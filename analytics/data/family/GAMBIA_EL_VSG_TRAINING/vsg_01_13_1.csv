@@ -1,0 +1,5 @@
+id,X_URI,instanceID,X_PARENT_AURI,anchor_repeat,vsg_01_13,vsg_01_13b,vsg_01_13_other,rta_form_id
+1,uuid:58946902-48ef-4eed-a467-7a5437dce072,uuid:385a18d5-ebae-432f-86d6-62b49b037052,uuid:385a18d5-ebae-432f-86d6-62b49b037052,1,,3,,
+2,uuid:a5c77109-46f9-4119-a064-fbbc55c6b25f,uuid:385a18d5-ebae-432f-86d6-62b49b037052,uuid:385a18d5-ebae-432f-86d6-62b49b037052,2,,3,,
+5,uuid:4b3dcd3d-4db9-4a66-a49c-d5cdaf3917c9,uuid:9e3d7076-c7af-4939-9b57-7b925c29c81c,uuid:9e3d7076-c7af-4939-9b57-7b925c29c81c,1,,96,Ybby,
+6,uuid:060175cf-a1a4-44b0-bb4a-cb674d675e4b,uuid:9e3d7076-c7af-4939-9b57-7b925c29c81c,uuid:9e3d7076-c7af-4939-9b57-7b925c29c81c,2,,96,Ybuj,

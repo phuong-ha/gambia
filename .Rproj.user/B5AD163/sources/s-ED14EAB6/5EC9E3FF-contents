@@ -1,0 +1,23 @@
+function (r_file) 
+{
+    metadata <- tryCatch({
+        r_lines <- readLines(r_file)
+        delim <- grep("^---\\s*$", r_lines)
+        start <- delim[1] + 1
+        end <- delim[2] - 1
+        if (is.na(start) | is.na(end)) {
+            list()
+        } else if (end - start < 1) {
+            list()
+        } else {
+            yaml_str <- paste(r_lines[start:end], collapse = "\n")
+            yaml::yaml.load(yaml_str)
+        }
+    }, error = function(e) {
+        msg <- paste("Failed to parse metadata from Rmarkdown file:", 
+                     e$message)
+        warning(msg, call. = FALSE)
+        list()
+    })
+    metadata
+}

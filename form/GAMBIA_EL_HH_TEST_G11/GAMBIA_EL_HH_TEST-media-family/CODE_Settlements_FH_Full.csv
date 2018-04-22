@@ -1,0 +1,133 @@
+faci_key,region_id,region,code_hf_id,code_hf,h_facility_id,h_facility,lga,district_id,district,eacode_id,eacode,ea_ie_code_id,ea_ie_code,settlement_id,settlement,scode
+1,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,1,51203,1,5102,1,ALBREDA,51201
+2,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,2,51204,2,5104,1,ALBREDA,51201
+3,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,3,51134,3,3701,2,ALJAMDOU,51101
+4,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,4,51213,4,6901,3,KERR CHEBOU JALLOW/KAHEL,51233
+5,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,5,51123,5,4801,4,PAKAU SALOUM,51117
+6,3,NBR West,1,51201.1,1,Albreda,Kerewan,1,Upper Niumi,6,51132,6,4901,5,SITANUNKU,51118
+7,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,7,50109,7,2005,6,BARRA,50129
+8,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,8,50131,8,2116,7,ESSAU,50130
+9,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,9,50161,9,604,8,FASS,50110
+10,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,10,50231,10,2903,9,MEDINA DARU,50219
+11,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,11,50218,11,3201,10,NDUNGU KEBBEH,50223
+12,3,NBR West,2,50130.1,2,Essau,Kerewan,2,Lower Niumi,12,50225,12,3302,11,SAMBA KALA,50225
+13,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,13,51103,13,4104,12,FASS OMAR CHAHO,51105
+14,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,14,51217,14,5901,13,KERR CHERNO BABA,51212
+15,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,15,51215,15,6001,14,KERR MAMA,51216
+16,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,16,51109,16,4401,15,MAHMUDA,51113
+17,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,17,51227,17,6401,16,PRINCE,51224
+18,3,NBR West,3,51212.1,3,Kerr Cherno,Kerewan,1,Upper Niumi,18,51222,18,6701,17,SARE ALPHA,51228
+19,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,19,52111,19,7501,18,DARSILAMEH,52110
+20,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,20,52221,20,8502,19,GISSAY (KERR AMADOU FAYOL),52207
+21,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,21,52101,21,7601,20,KERR ALAGIE MALICK,52111
+22,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,22,52218,22,9501,21,KERR OMAR SAINE,52223
+23,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,23,52207,23,8901,22,MECCA OMAR MANNEH,52213
+24,3,NBR West,4,52216.1,4,Kuntaya,Kerewan,3,Jokadu,24,52118,24,7803,23,MUNYAGEN,52114
+25,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,25,51114,25,3801,24,BAKALARR,51102
+26,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,26,51112,26,4501,25,MEDINA SEDIA,51114
+27,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,27,51111,27,4502,25,MEDINA SEDIA,51114
+28,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,28,51118,28,4602,26,NEAM KUNKU,51115
+29,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,29,51117,29,4601,27,NEMA KUNKU,51115
+30,3,NBR West,5,51115.1,5,Nema kunku,Kerewan,1,Upper Niumi,30,51110,30,4001,28,PAKALA DEMBA KHOLLEH,51104
+31,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,31,74403,31,21903,29,Bantanto,74403
+32,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,32,74425,32,22001,30,Chargel,74404
+33,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,33,74308,33,21501,31,Daru,74305
+34,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,34,74216,34,21001,32,Kerr Njagga (Ngayen,74205
+35,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,35,74213,35,21102,33,Kerr Ousman Boye,74206
+36,2,CRR,6,74103.1,6,Bansang RCH,Janjanbureh,4,Upper Fuladu West,36,74217,36,21301,34,Njalal,74209
+37,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,37,73234,37,18401,35,Ahalulai,73201
+38,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,38,73311,38,19601,36,Fula Bantang,73303
+39,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,39,73130,39,18003,37,Jahaly,73108
+40,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,40,73124,40,18104,38,Madina Umfally,73111
+41,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,41,73122,41,18107,38,Madina Umfally,73111
+42,2,CRR,7,73101.1,7,Brikamaba,Janjanbureh,5,Lower Fuladu West,42,73217,42,19303,39,Taifa,73221
+43,2,CRR,8,62106.1,8,Chamen,Kuntaur,6,Nianija,43,62122,43,11101,40,Bakadagie,62101
+44,2,CRR,8,62106.1,8,Chamen,Kuntaur,7,Upper Saloum,44,61110,44,10302,41,Bati Ndarr,61113
+45,2,CRR,8,62106.1,8,Chamen,Kuntaur,6,Nianija,45,62120,45,11401,42,Kerr Gibel,62116
+46,2,CRR,8,62106.1,8,Chamen,Kuntaur,6,Nianija,45,62120,46,11701,43,Mbayen Burama,62121
+47,2,CRR,8,62106.1,8,Chamen,Kuntaur,6,Nianija,46,62109,47,11801,44,Palelai,62129
+48,2,CRR,8,62106.1,8,Chamen,Kuntaur,6,Nianija,47,62116,48,11501,45,Sare Seedy,62118
+49,2,CRR,9,70109.1,9,Dankunku,Janjanbureh,8,Niamina West,48,71113,49,15801,46,Jamal Kerr Katim,71111
+50,2,CRR,9,70109.1,9,Dankunku,Janjanbureh,9,Niamina Dankunku,49,70107,50,15301,47,Jisadi,70111
+51,2,CRR,9,70109.1,9,Dankunku,Janjanbureh,8,Niamina West,50,71105,51,15701,48,Katamina,71110
+52,2,CRR,9,70109.1,9,Dankunku,Kuntaur,10,Lower Saloum,51,70110,52,15501,49,Medina Yooroba (Kerr Lien),70125
+53,2,CRR,9,70109.1,9,Dankunku,Janjanbureh,8,Niamina West,52,71119,53,15901,50,Papa,71122
+54,2,CRR,9,70109.1,9,Dankunku,Janjanbureh,8,Niamina West,53,71101,54,16101,51,Sambang Mandinka Kunda,71125
+55,2,CRR,10,75101.1,10,Janjangbureh,Janjanbureh,5,Lower Fuladu West,54,73306,55,19501,52,Faraba,73302
+56,2,CRR,10,75101.1,10,Janjangbureh,Kuntaur,11,Sami,55,64114,56,13402,53,Kibiri,64112
+57,2,CRR,10,75101.1,10,Janjangbureh,Kuntaur,11,Sami,56,64109,57,13602,54,Kunting,64117
+58,2,CRR,10,75101.1,10,Janjangbureh,Janjanbureh,8,Niamina West,57,73305,58,20401,55,Tabanani Fatty,73332
+59,2,CRR,10,75101.1,10,Janjangbureh,Janjanbureh,8,Niamina West,58,73304,59,20402,55,Tabanani Fatty,73332
+60,2,CRR,10,75101.1,10,Janjangbureh,Janjanbureh,4,Upper Fuladu West,59,74130,60,20601,56,Yerro Beri Kunda Mandinka,74124
+61,2,CRR,11,60224.1,11,Kaur,Kuntaur,10,Lower Saloum,60,60225,61,9901,57,Jahawurr Mandinka,60209
+62,2,CRR,11,60224.1,11,Kaur,Kuntaur,10,Lower Saloum,61,60218,62,10001,58,Jimbala Kerr Malick Njie,60219
+63,2,CRR,11,60224.1,11,Kaur,Kuntaur,7,Upper Saloum,62,61118,63,10201,59,Ker Sulay,61104
+64,2,CRR,11,60224.1,11,Kaur,Kuntaur,7,Upper Saloum,63,61127,64,10501,60,Maka Ali Sarr Serigne,61138
+65,2,CRR,11,60224.1,11,Kaur,Kuntaur,7,Upper Saloum,64,61213,65,10901,61,Tamba,61231
+66,2,CRR,11,60224.1,11,Kaur,Kuntaur,7,Upper Saloum,65,61208,66,11001,62,Tento Madi Secka /Tento Chebo,61232
+67,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,66,72215,67,17101,63,Kawlang (Kaolong Niamina),72208
+68,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,67,72207,68,17501,64,Kerewan Demba,72219
+69,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,68,72222,69,17802,65,Macca,72228
+70,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,69,72121,70,16601,66,Mbayen,72104
+71,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,70,72216,71,17902,67,Pateh Sam,72229
+72,2,CRR,12,72204.1,12,Kudang,Janjanbureh,12,Niamina East,71,72203,72,17302,68,Sambel Kunda,72210
+73,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,11,Sami,72,64103,73,13202,69,Dobo,64103
+74,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,13,Niani,73,63114,74,12102,70,Jakaba,63110
+75,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,13,Niani,74,63223,75,12902,71,Jokul Ndawen,63213
+76,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,13,Niani,75,63224,76,12903,71,Jokul Ndawen,63213
+77,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,13,Niani,76,63229,77,13101,72,Pallol Wollof,63242
+78,2,CRR,13,63118.1,13,Kuntaur,Kuntaur,13,Niani,77,63133,78,12603,73,Waasu,63142
+79,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,78,64312,79,14801,74,Madiana,64305
+80,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,79,64303,80,14903,75,Pachonki,64307
+81,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,80,64310,81,15001,76,Sami Madina,64308
+82,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,81,64309,82,15002,76,Sami Madina,64308
+83,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,82,64315,83,15101,77,Sinchu Baya,64312
+84,2,CRR,14,70122.1,14,Sami Karantaba,Kuntaur,11,Sami,83,64209,84,14501,78,Tabanani,64226
+85,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,84,85103,85,27301,79,Bantunding,85102
+86,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,85,85129,86,27402,80,Boro Kanda Kasseh,85105
+87,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,86,85219,87,27802,81,Foday Kunda A,85206
+88,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,87,85207,88,27902,82,Maka Masireh A,85213
+89,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,88,85206,89,27901,82,Maka Masireh A,85213
+90,1,URR,15,85101.1,15,Baja Kunda,Basse,14,Wuli East,89,85122,90,27506,83,Sutukoba,85112
+91,1,URR,16,81102.1,16,Basse,Basse,15,Tumana,90,82131,91,24407,84,Dingiri,82106
+92,1,URR,16,81102.1,16,Basse,Basse,15,Tumana,91,82130,92,24408,84,Dingiri,82106
+93,1,URR,16,81102.1,16,Basse,Basse,15,Tumana,92,82222,93,24908,85,Kulari,82202
+94,1,URR,16,81102.1,16,Basse,Basse,15,Tumana,93,82224,94,24914,85,Kulari,82202
+95,1,URR,16,81102.1,16,Basse,Basse,16,Basse,94,81214,95,24006,86,Kumbija,81209
+96,1,URR,16,81102.1,16,Basse,Basse,16,Basse,95,81217,96,24001,86,Kumbija,81209
+97,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,17,Jimara,96,80235,97,23402,87,Demba  Kunda Kuta,80202
+98,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,17,Jimara,97,80228,98,23408,87,Demba  Kunda Kuta,80202
+99,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,17,Jimara,98,80236,99,23303,88,Demba Kunda Koto,80201
+100,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,16,Basse,99,81230,100,24109,89,Sabi,81211
+101,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,16,Basse,100,81225,101,24114,89,Sabi,81211
+102,1,URR,17,80201.1,17,Demba Kunda Koto,Basse,16,Basse,101,81234,102,24112,89,Sabi,81211
+103,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,102,86216,103,29005,90,Darsilame Bullembu,86203
+104,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,103,86214,104,29002,90,Darsilame Bullembu,86203
+105,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,104,86209,105,29202,91,Darsilame Takutala,86205
+106,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,105,86206,106,29301,92,Kuwonku Ba,86210
+107,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,106,86228,107,29401,93,Misera,86213
+108,1,URR,18,86105.1,18,Diabugu,Basse,18,Sandu,107,86229,108,29403,93,Misera,86213
+109,1,URR,19,83205.1,19,Fatoto,Basse,15,Tumana,108,82202,109,25202,94,Diabugu Bassilah),82215
+110,1,URR,19,83205.1,19,Fatoto,Basse,19,Kantora,109,83112,110,25309,95,Garawol,83102
+111,1,URR,19,83205.1,19,Fatoto,Basse,19,Kantora,110,83134,111,25509,96,Missiraba Mariama,83110
+112,1,URR,19,83205.1,19,Fatoto,Basse,19,Kantora,111,83232,112,26001,97,Nyamanarr,83223
+113,1,URR,19,83205.1,19,Fatoto,Basse,19,Kantora,112,83235,113,26003,97,Nyamanarr,83223
+114,1,URR,19,83205.1,19,Fatoto,Basse,19,Kantora,113,83128,114,25605,98,Suduwol,83115
+115,1,URR,20,80204.1,20,Gambisara,Basse,17,Jimara,114,80127,115,22902,99,Julangel,80114
+116,1,URR,20,80204.1,20,Gambisara,Basse,17,Jimara,115,80124,116,23001,100,Koro Jula Kunda,80116
+117,1,URR,20,80204.1,20,Gambisara,Basse,17,Jimara,116,80245,117,23505,101,Numuyel,80205
+118,1,URR,20,80204.1,20,Gambisara,Basse,17,Jimara,117,80244,118,23506,101,Numuyel,80205
+119,1,URR,20,80204.1,20,Gambisara,Basse,17,Jimara,118,80242,119,23503,101,Numuyel,80205
+120,1,URR,20,80204.1,20,Gambisara,Basse,14,Wuli East,119,85214,120,28201,102,Sandi Kunda,85220
+121,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,120,83216,121,25802,103,Keneba,83216
+122,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,121,83217,122,25803,103,Keneba,83216
+123,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,122,83204,123,25904,104,Koina,83217
+124,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,123,83212,124,25911,104,Koina,83217
+125,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,124,83231,125,26102,105,Song Kunda,83227
+126,1,URR,21,83217.1,21,Koina,Basse,19,Kantora,125,83229,126,26101,105,Song Kunda,83227
+127,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,126,84209,127,26701,106,Barrow Kunda,84201
+128,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,127,84205,128,26901,107,Gunjur Kuta,84207
+129,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,128,84204,129,26903,107,Gunjur Kuta,84207
+130,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,129,84216,130,27101,108,Limbanbulu Yamadu,84216
+131,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,130,84116,131,26501,109,Taibatu,84111
+132,1,URR,22,84233.1,22,Yero Bawol,Basse,20,Wuli West,131,84102,132,26601,110,Touba Wuli,84113

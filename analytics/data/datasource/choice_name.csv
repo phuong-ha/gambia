@@ -1,0 +1,26 @@
+dm_id,stt,list_name,name_id,name_lb,max_order,marked_as_deleted
+1,1,accord,1,Success,0,0
+2,2,accord,2,Fail,1,0
+3,3,accord,3,Refuse,2,0
+4,4,hf_type,1,Public Health Center,3,0
+5,5,hf_type,2,Pubic Hospital,4,0
+6,6,visit,1,Visit 1,5,0
+7,7,visit,2,Visit 2,6,0
+8,8,visit,3,Visit 3,7,0
+9,9,result,1,INTERVIEW DONE,8,0
+10,10,result,2,PARTIALLY COMPLETED,9,0
+11,11,result,3,PERSON IN CHARGE REFUSED INTERVIEW,10,0
+12,12,result,4,PERSON IN CHARGE IS OUT  (STAFF THAT IS PRESENT IS NOT AUTHORIZED),11,0
+13,13,result,5,FACILITY IS EMPTY (NO STAFF MEMBERS),12,0
+14,14,result,6,HEALTH FACILITY NOT FOUND,13,0
+15,15,result,96,"OTHER, SPECIFY:",14,0
+16,16,language,1,ENGLISH,15,0
+17,17,language,2,MADINKA,16,0
+18,18,language,3,WOLOF,17,0
+19,19,language,4,FULA,18,0
+20,20,language,5,JOLA,19,0
+21,21,language,6,SERER,20,0
+22,22,language,96,"OTHER, SPECIFY",21,0
+23,23,tranlator,1,NEVER,22,0
+24,24,tranlator,2,SOMETIMES,23,0
+25,25,tranlator,3,ALWAYS,24,0

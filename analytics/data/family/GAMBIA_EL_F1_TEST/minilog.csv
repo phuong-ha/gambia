@@ -1,0 +1,8 @@
+id,X_URI,instanceID,X_PARENT_AURI,log_action,log_description,log_date,log_timestamp,log_index,rta_form_id
+1,uuid:883c480c-ade1-4b89-b597-14b6cd6021a4,uuid:b27721bb-8812-46dd-aa8e-6105296f2db6,uuid:b27721bb-8812-46dd-aa8e-6105296f2db6,formOpen,Form Opening,1523424481020,2018-04-11 12:28:01,beginningOfForm,
+3,uuid:df9c0b20-c1ad-468c-915d-3e3f09a42213,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5,formOpen,Form Opening,1523425119210,2018-04-11 12:38:39,beginningOfForm,
+5,uuid:f66fa306-6812-4fb9-85b0-327426d51678,uuid:db27d47a-3215-4aa8-92f0-62d12b0777c6,uuid:db27d47a-3215-4aa8-92f0-62d12b0777c6,formOpen,Form Opening,1523433143919,2018-04-11 14:52:23,beginningOfForm,
+7,uuid:1ddfcc22-f29d-4b54-ba74-37c5ba0c114d,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,formOpen,Form Opening,1523425119210,2018-04-11 12:38:39,beginningOfForm,
+8,uuid:0d67a58c-f998-4bad-8bbc-93304444b236,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,formOpen,Form Opening,1523437283554,2018-04-11 16:01:23,beginningOfForm,
+9,uuid:f7504712-6824-4e99-8848-e3b88393c689,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,uuid:2bafcb86-ed9b-4b58-b7e1-493b55006ec5~1,TOC,Table of Content (Prompt List),1523437284125,2018-04-11 16:01:24,beginningOfForm,
+13,uuid:13c6e588-8514-43a0-99c9-ee070f258edc,uuid:e354b557-c63f-41e6-a068-fc644252deb9,uuid:e354b557-c63f-41e6-a068-fc644252deb9,formOpen,Form Opening,1523442688579,2018-04-11 17:31:28,beginningOfForm,

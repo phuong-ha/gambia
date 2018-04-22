@@ -1,0 +1,18 @@
+workflow:::wf_publish_rmd
+function (r_file, site = NULL) 
+{
+    if (missing(r_file)) {
+        stop("Argument 'r_file' is not provided", call. = FALSE)
+    }
+    if (!file.exists(r_file)) {
+        stop("File does not exist: ", r_file, call. = FALSE)
+    }
+    args_lst <- list(site = site)
+    rest_api <- update_report_api(site)
+rmscript <- readChar(rmd_file, file.info(rmd_file)$size)
+    body = list(`Report[rmscript]` = rmscript)
+    r <- httr::POST(url = rest_api, body = body, encode = "form")
+    httr::stop_for_status(r)
+    r <- jsonlite::fromJSON(httr::content(r, as = "text", encoding = "utf-8"))
+    done("Successfully published: ", value(basename(r_file)))
+}

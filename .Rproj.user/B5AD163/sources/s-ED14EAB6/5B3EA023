@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524066098935.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5B3EA023",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1524066098935,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "context" : "package:purrr:::pmap"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_code_browser"
+}

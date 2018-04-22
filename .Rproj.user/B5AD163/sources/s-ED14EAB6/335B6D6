@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523761153484.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "335B6D6",
+    "lastKnownWriteTime" : 1523761904,
+    "last_content_update" : 1523761904,
+    "path" : "~/MEGAsync/RTA/Analytic/gambia/analytics/scripts/datasource/2018-04-15_test.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "34,38",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

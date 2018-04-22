@@ -1,0 +1,4 @@
+list_name,name,label::English,filter,media::image::English,media::video::English,media::audio::English
+na,-98,NA,,,,
+received,0,RECEIVED ON TIME,,,,
+received,77,STILL NOT RECEIVED,,,,

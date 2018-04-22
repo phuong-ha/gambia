@@ -1,0 +1,34 @@
+id,X_URI,instanceID,X_PARENT_AURI,fh_08_04c,fh_08_04_name,fh_08_04n2,fh_08_04m,fh_08_04y,fh_08_05,fh_08_06,fh_08_06_1,fh_08_06_2,fh_08_06_3,fh_08_07,fh_08_07_other,fh_08_08,fh_08_08_other,fh_08_09,fh_08_09_other,fh_08_10,fh_08_10_other,rta_form_id,fh_08_06_3_cal
+1,uuid:ca205ad7-e924-444b-a207-595a3ef7f230,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,1,I,,12,2017,1,,2,11,20,9,,3,,4,,1,,,
+2,uuid:afa09d55-fca3-4978-90ac-4820c509fb12,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,2,A,,1,2017,1,,1,11,20,5,,3,,1,,2,,,
+3,uuid:9b9429bf-3d3c-48ad-becd-4f013945ca43,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,3,H,,1,2017,1,,1,1,20,1,,5,,7,,5,,,
+4,uuid:581b4f01-530b-42fa-9ba5-fe31306f9053,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,4,U,,1,2017,2,,1,11,20,6,,4,,6,,5,,,
+5,uuid:046f3dc6-9e1a-4520-af1a-3a935828c559,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,5,Y,,1,2017,1,,1,11,20,5,,5,,6,,5,,,
+6,uuid:bf14c548-fee8-49ce-a2ef-e0a46470bc35,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,6,U,,1,2017,1,,1,11,20,8,,5,,6,,4,,,
+7,uuid:0fd51eb4-65f5-4c93-8d04-60b6dda7e664,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,7,A,,1,2017,1,,1,11,20,8,,4,,3,,4,,,
+8,uuid:6efab584-29cf-45b1-91be-a46b4cb3ed3c,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,8,U,,1,2017,1,,1,11,20,9,,4,,9,,5,,,
+9,uuid:ca1d28ce-f4c3-41b0-a6f4-3de01f172104,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,9,Y,,1,2017,1,,2,11,20,6,,4,,6,,5,,,
+10,uuid:ebf1691b-d034-455d-8338-c614298a3f4f,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,10,R,,1,2017,1,,1,11,28,7,,5,,9,,5,,,
+11,uuid:a0af54a7-17d7-4771-b00d-b04c89789a6c,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,11,G,,2,2018,1,,1,11,20,9,,5,,6,,5,,,
+12,uuid:4d7dce8c-5513-47dc-9af1-5a87554a697f,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,12,Y,,1,2018,1,,1,11,20,6,,4,,5,,4,,,
+13,uuid:9c63b5d4-f38a-4413-9751-4c52e116c9e5,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,13,A,,1,2017,1,,1,11,20,7,,5,,6,,5,,,
+14,uuid:830d02c6-a2ce-46bd-b0d7-5325880c1de8,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,14,S,,1,2017,1,,1,11,20,8,,5,,5,,4,,,
+15,uuid:06cb7be6-fa6b-4299-b0aa-d8921abc36da,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,15,U,,2,2017,1,,1,11,20,5,,4,,6,,5,,,
+16,uuid:b6333bb8-feff-47bd-ab20-72a0e1b213d3,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,16,E,,1,2017,1,,2,11,20,10,,4,,11,,3,,,
+17,uuid:849f34c3-52a6-43d6-8f28-ddf1d731b76c,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,17,A,,1,2017,1,,1,11,20,8,,5,,7,,5,,,
+18,uuid:e0d1aca3-97a5-4ecd-ac4e-a30ca354f78d,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,18,A,,2,2018,1,,1,11,20,4,,4,,4,,4,,,
+19,uuid:cb804609-d0bc-4f99-ac50-caf5ac37c08b,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,19,A,,1,2017,1,,1,11,20,12,,3,,7,,4,,,
+20,uuid:b6dfd965-b20c-43b7-962b-f77963f954eb,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,20,A,,1,2017,2,,1,11,20,15,,4,,9,,5,,,
+21,uuid:9e2f03b0-030f-4acf-8c9b-9e1acefc84a0,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,21,D,,1,2017,2,,2,11,20,5,,5,,6,,5,,,
+22,uuid:1ca96795-1a27-47e8-a5cd-86ebe62cd1a4,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,22,A,,1,2017,1,,1,11,2,1,,3,,3,,3,,,
+23,uuid:73da4a7c-5d9c-4d27-9d8c-606b9ff08447,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,23,A,,1,2017,1,,1,11,20,7,,4,,7,,4,,,
+24,uuid:fb461200-2454-4c8a-9d40-d353acd793f3,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,uuid:d3ca7712-e70f-46dd-b807-0ba321370aee,24,U,,1,2017,1,,1,11,20,6,,4,,11,,3,,,
+169,uuid:8147be32-3d91-466b-a3f6-a5e72dd78b12,uuid:567a01d3-97f4-49f3-85d5-07a58fdc29f9,uuid:567a01d3-97f4-49f3-85d5-07a58fdc29f9,1,U,,2,-99,1,,2,2,50,3,,5,,4,,5,,,0
+170,uuid:9f1ebd7c-73d2-40be-9182-8155f1947e23,uuid:567a01d3-97f4-49f3-85d5-07a58fdc29f9,uuid:567a01d3-97f4-49f3-85d5-07a58fdc29f9,2,Y,,1,-99,1,,2,2,38,6,,5,,6,,5,,,0
+183,uuid:16b5c760-3c94-4b9e-9030-b493accbd1a2,uuid:28e31f00-59c6-4f86-b880-9dedbf70ca7e,uuid:28e31f00-59c6-4f86-b880-9dedbf70ca7e,1,U,,1,-99,1,,2,2,25,15,,5,,13,,5,,,0
+190,uuid:8bc35af8-7646-4c09-8db6-c93ac152a82f,uuid:b8887fc3-54d3-42aa-aefc-20b5c40ece55,uuid:b8887fc3-54d3-42aa-aefc-20b5c40ece55,1,U,,1,2017,1,,2,5,26,16,,3,,5,,5,,,0
+191,uuid:8bcacf29-4655-4294-a297-bd1e7aa6c197,uuid:b8887fc3-54d3-42aa-aefc-20b5c40ece55,uuid:b8887fc3-54d3-42aa-aefc-20b5c40ece55,2,O,,2,2017,1,,3,3,3,9,,5,,10,,4,,,0
+204,uuid:45014509-4401-4642-bea7-11317612c15b,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,1,NU 25T,,5,2017,2,,1,2,25,15,,1,,2,,4,,,0
+205,uuid:627cb9fa-a46a-4bd1-9098-addc08347fb8,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,2,NU16T,,3,2018,2,,30,11,16,12,,3,,2,,1,,,0
+206,uuid:acafdcf6-38b9-49d5-a534-65aea2d99906,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,uuid:61badcc8-716e-414f-bad5-4f2b499ea9b2,3,NU 3,,9,2017,2,,1,1,0,17,,1,,1,,5,,,1
+225,uuid:f01aaa29-9302-4965-8b17-e3bc419d36d6,uuid:c3cfeebc-1d66-45cc-856e-6350f98ca9dd,uuid:c3cfeebc-1d66-45cc-856e-6350f98ca9dd,1,ABC,,-99,-99,2,,-99,-99,-99,6,,2,,3,,3,,,1

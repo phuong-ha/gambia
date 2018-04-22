@@ -1,0 +1,6 @@
+id,X_URI,instanceID,X_PARENT_AURI,fh_1355_rr_c,fh_1355_rr_nc,fh_1355_rr_n,fh_13_55,fh_13_56,fh_13_56_1n,fh_13_56_2n,fh_13_56_3n,fh_13_57,fh_13_58,fh_13_59,fh_13_60,fh_13_61,fh_13_61_other,rta_form_id
+1,uuid:815244bc-6076-4733-b6ae-778fba1784c3,uuid:28319517-f967-4a79-98a9-96e6828f4484,uuid:28319517-f967-4a79-98a9-96e6828f4484,1,st,,3,1,1,1,1,1,2,1,1,2,,
+2,uuid:ce66763f-cbb1-482d-97b3-9fec79a956f5,uuid:28319517-f967-4a79-98a9-96e6828f4484,uuid:28319517-f967-4a79-98a9-96e6828f4484,2,nd,,1,1,1,1,1,1,2,1,1,1,,
+13,uuid:b032f73d-9606-4286-9120-d0d13aed0a04,uuid:b337e0bc-6deb-4e73-8a23-342ed3a2d5cc,uuid:b337e0bc-6deb-4e73-8a23-342ed3a2d5cc,1,st,,1,0,0,0,0,0,,,,,,
+19,uuid:87db3cde-2387-43cf-8fbb-902c35f7d03e,uuid:dd704b19-95a3-4db6-9263-184cdb1ed65c,uuid:dd704b19-95a3-4db6-9263-184cdb1ed65c,1,st,,3,1,0,1,1,1,2,1,0,,,
+20,uuid:acd72175-ac8c-4703-8c43-26cfe55e7450,uuid:dd704b19-95a3-4db6-9263-184cdb1ed65c,uuid:dd704b19-95a3-4db6-9263-184cdb1ed65c,2,nd,,4,0,0,0,0,1,2,1,0,,,

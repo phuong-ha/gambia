@@ -1,0 +1,430 @@
+faci_key,region_id,region,code_hf_id,code_hf,h_facility_id,h_facility,code_staff_id,code_staff,staff_id,staff,designation
+1,2,CRR,6,74103.1,9,Bansang RCH,1,74103.1.01,1,Abdoulie Jallow,CHN/M
+2,2,CRR,6,74103.1,9,Bansang RCH,2,74103.1.02,2,Ajie Fatou Jallow,CHN/M
+3,2,CRR,6,74103.1,9,Bansang RCH,3,74103.1.03,3,Bunja Ceesay,CHN/M
+4,2,CRR,6,74103.1,9,Bansang RCH,4,74103.1.04,4,Bakary Corra,SEN
+5,2,CRR,6,74103.1,9,Bansang RCH,5,74103.1.05,5,Bubaccar T. Jallow,CHN/VHS
+6,2,CRR,6,74103.1,9,Bansang RCH,6,74103.1.06,6,Maimuna Gaye,SEN
+7,2,CRR,6,74103.1,9,Bansang RCH,7,74103.1.07,7,Kebba Jimbara,CHN/VHS
+8,2,CRR,6,74103.1,9,Bansang RCH,8,74103.1.08,8,Lamin Sonko,CHN/VHS
+9,2,CRR,6,74103.1,9,Bansang RCH,9,74103.1.09,9,Baba Samateh,CHN/VHS
+10,2,CRR,6,74103.1,9,Bansang RCH,10,74103.1.10,10,Kemo Sisawo,CHN/VHS
+11,2,CRR,6,74103.1,9,Bansang RCH,11,74103.1.11,11,Haddy Colley,Nurse Attendant
+12,2,CRR,6,74103.1,9,Bansang RCH,12,74103.1.12,12,Kumba Sano,Nurse Attendant
+13,2,CRR,6,74103.1,9,Bansang RCH,13,74103.1.13,13,Fatou Ndimballan,CNA
+14,2,CRR,6,74103.1,9,Bansang RCH,14,74103.1.14,14,Mariama Baldeh,CNA
+15,2,CRR,6,74103.1,9,Bansang RCH,15,74103.1.15,15,Abdul Cham,APHO
+16,2,CRR,6,74103.1,9,Bansang RCH,16,74103.1.16,16,Salimatou Bah,APHO
+17,2,CRR,6,74103.1,9,Bansang RCH,17,74103.1.17,17,Marie Noel Mendy,APHO
+18,2,CRR,7,73101.1,10,Brikamaba,1,73101.1.01,1,Abdoulie Jammeh,RM/BSc
+19,2,CRR,7,73101.1,10,Brikamaba,2,73101.1.02,2,Ousainou Fatty,RN
+20,2,CRR,7,73101.1,10,Brikamaba,3,73101.1.03,3,Ousainou Gomez,RN
+21,2,CRR,7,73101.1,10,Brikamaba,4,73101.1.04,4,Mariama Jorbateh,SEN
+22,2,CRR,7,73101.1,10,Brikamaba,5,73101.1.05,5,Momodou Gai,CHN/M
+23,2,CRR,7,73101.1,10,Brikamaba,6,73101.1.06,6,Germaine Mendy,CHN/M
+24,2,CRR,7,73101.1,10,Brikamaba,7,73101.1.07,7,Sanu Badjie,CHN/M
+25,2,CRR,7,73101.1,10,Brikamaba,8,73101.1.08,8,Omar M Fadera,CHN/VHS
+26,2,CRR,7,73101.1,10,Brikamaba,9,73101.1.09,9,Fatou Touray,CHN/VHS
+27,2,CRR,7,73101.1,10,Brikamaba,10,73101.1.10,10,Lasana Janneh,CHN/VHS
+28,2,CRR,7,73101.1,10,Brikamaba,11,73101.1.11,11,Fatou Trawally,SCNA
+29,2,CRR,7,73101.1,10,Brikamaba,12,73101.1.12,12,Omar Sonko,CNA
+30,2,CRR,7,73101.1,10,Brikamaba,13,73101.1.13,13,Assan Camara,CNA
+31,2,CRR,7,73101.1,10,Brikamaba,14,73101.1.14,14,Fatou Cham,CHN/VHS
+32,2,CRR,7,73101.1,10,Brikamaba,15,73101.1.15,15,Tamba Touray,SEN/Opth
+33,2,CRR,7,73101.1,10,Brikamaba,16,73101.1.16,16,Lamin Bojang,PHO Desk Officer
+34,2,CRR,7,73101.1,10,Brikamaba,17,73101.1.17,17,Bintou J Bojang,APHO
+35,2,CRR,7,73101.1,10,Brikamaba,18,73101.1.18,18,Saikou Camara,APHO
+36,2,CRR,7,73101.1,10,Brikamaba,19,73101.1.19,19,Micheal Mballow,SCNA
+37,2,CRR,7,73101.1,10,Brikamaba,20,73101.1.20,20,Fatou jatta,ACLK
+38,2,CRR,7,73101.1,10,Brikamaba,21,73101.1.21,21,Yassin Saho,Lab. Assistant
+39,2,CRR,7,73101.1,10,Brikamaba,22,73101.1.22,22,Momodou L Camara,Lab. Assistant
+40,2,CRR,7,73101.1,10,Brikamaba,23,73101.1.23,23,Haddy Jallow,CHN
+41,2,CRR,12,72204.1,15,Kudang,1,72204.1.01,1,Omar Njie,SEN/M
+42,2,CRR,12,72204.1,15,Kudang,2,72204.1.02,2,Babucarr Cham,RN
+43,2,CRR,12,72204.1,15,Kudang,3,72204.1.03,3,Yaya S. Darboe,CHN/M
+44,2,CRR,12,72204.1,15,Kudang,4,72204.1.04,4,Maimuna Saho,SEN
+45,2,CRR,12,72204.1,15,Kudang,5,72204.1.05,5,Ebou Sogor,APHO
+46,2,CRR,12,72204.1,15,Kudang,6,72204.1.06,6,Ebou Saine,LTI
+47,2,CRR,12,72204.1,15,Kudang,7,72204.1.07,7,Khaddy Nyassi,CHN
+48,2,CRR,12,72204.1,15,Kudang,8,72204.1.08,8,Demba Secka,CHN/VHS
+49,2,CRR,12,72204.1,15,Kudang,9,72204.1.09,9,Amadou Jawo,CHN/VHS
+50,2,CRR,12,72204.1,15,Kudang,10,72204.1.10,10,Kemeseng Marena,CNA
+51,2,CRR,12,72204.1,15,Kudang,11,72204.1.11,11,Binta Jallow,CNA
+52,2,CRR,12,72204.1,15,Kudang,12,72204.1.12,12,Ida Jeng,CNA
+53,2,CRR,12,72204.1,15,Kudang,13,72204.1.13,13,Sarjo Baldeh,DRF Acct.
+54,2,CRR,12,72204.1,15,Kudang,14,72204.1.14,14,Catherine  Mendy,SEN/M
+55,2,CRR,9,70109.1,12,Dankunku,1,70109.1.01,1,Alagie Marena,SEN/M
+56,2,CRR,9,70109.1,12,Dankunku,2,70109.1.02,2,Sheikh Omar Jaw,RN
+57,2,CRR,9,70109.1,12,Dankunku,3,70109.1.03,3,Musa Jarju,SEN
+58,2,CRR,9,70109.1,12,Dankunku,4,70109.1.04,4,Mamadou Baldeh,SEN
+59,2,CRR,9,70109.1,12,Dankunku,5,70109.1.05,5,Aminata Ceesay,SEN
+60,2,CRR,9,70109.1,12,Dankunku,6,70109.1.06,6,Momodou A. Jallow,SEN
+61,2,CRR,9,70109.1,12,Dankunku,7,70109.1.07,7,Basiru Sanyang,CHN/VHS
+62,2,CRR,9,70109.1,12,Dankunku,8,70109.1.08,8,Musa Saidykhan,CHN/VHS
+63,2,CRR,9,70109.1,12,Dankunku,9,70109.1.09,9,Tacko Baldeh,CNA
+64,2,CRR,9,70109.1,12,Dankunku,10,70109.1.10,10,Kadijatou Sambou,CHN
+65,2,CRR,9,70109.1,12,Dankunku,11,70109.1.11,11,Alhagie jeng,APHO
+66,2,CRR,9,70109.1,12,Dankunku,12,70109.1.12,12,Alieu Daffeh,
+67,2,CRR,9,70109.1,12,Dankunku,13,70109.1.13,13,Mariama Mboge,SCNA
+68,2,CRR,9,70109.1,12,Dankunku,14,70109.1.14,14,Mam Jarra Camara,CNA
+69,2,CRR,9,70109.1,12,Dankunku,15,70109.1.15,15,Haddy Nget,CNA
+70,2,CRR,9,70109.1,12,Dankunku,16,70109.1.16,16,Musa Jallow,LTI
+71,2,CRR,11,60224.1,14,Kaur,1,60224.1.01,1,Kebba Daffeh,RN/M
+72,2,CRR,11,60224.1,14,Kaur,2,60224.1.02,2,Amie Mbye,RN
+73,2,CRR,11,60224.1,14,Kaur,3,60224.1.03,3,Alpha Omar Jallow,RN
+74,2,CRR,11,60224.1,14,Kaur,4,60224.1.04,4,Biran Mboob,RN
+75,2,CRR,11,60224.1,14,Kaur,5,60224.1.05,5,Kebba E Drammeh,RN
+76,2,CRR,11,60224.1,14,Kaur,6,60224.1.06,6,Bintou Dibba,CHN
+77,2,CRR,11,60224.1,14,Kaur,7,60224.1.07,7,Lamin E.Jammeh,SEN/M
+78,2,CRR,11,60224.1,14,Kaur,8,60224.1.08,8,Kebba  Mbye,CHN/M
+79,2,CRR,11,60224.1,14,Kaur,9,60224.1.09,9,Dodou Sonko,CHN/M
+80,2,CRR,11,60224.1,14,Kaur,10,60224.1.10,10,Saikou Mass,CHN
+81,2,CRR,11,60224.1,14,Kaur,11,60224.1.11,11,Landing Sanyang,CHN/VHS
+82,2,CRR,11,60224.1,14,Kaur,12,60224.1.12,12,Alieu Sanneh,CHN/VHS
+83,2,CRR,11,60224.1,14,Kaur,13,60224.1.13,13,Gibril Sanneh,
+84,2,CRR,11,60224.1,14,Kaur,14,60224.1.14,14,Lolly A.F Touray,CNA
+85,2,CRR,11,60224.1,14,Kaur,15,60224.1.15,15,Fatou Manneh,CNA
+86,2,CRR,11,60224.1,14,Kaur,16,60224.1.16,16,Demba Bah,CNA
+87,2,CRR,11,60224.1,14,Kaur,17,60224.1.17,17,Alieu Bah,PHO Desk Office
+88,2,CRR,11,60224.1,14,Kaur,18,60224.1.18,18,Haddy Jatta,PHO
+89,2,CRR,11,60224.1,14,Kaur,19,60224.1.19,19,Samba Bah,APHO
+90,2,CRR,11,60224.1,14,Kaur,20,60224.1.20,20,Wandifa Sillah,LTI
+91,2,CRR,11,60224.1,14,Kaur,21,60224.1.21,21,Pa Ndongo Sarr,DRF Acc. Clerk
+92,2,CRR,8,62106.1,11,Chamen,1,62106.1.01,1,Modou Lamin Camara,SEN/M
+93,2,CRR,8,62106.1,11,Chamen,2,62106.1.02,2,Bubacarr Dumbuya,RN
+94,2,CRR,8,62106.1,11,Chamen,3,62106.1.03,3,Ebou Keita ,CHN
+95,2,CRR,8,62106.1,11,Chamen,4,62106.1.04,4,Awa Sallah,SEN
+96,2,CRR,8,62106.1,11,Chamen,5,62106.1.05,5,Catherine S. Jatta,CHN
+97,2,CRR,8,62106.1,11,Chamen,6,62106.1.06,6,Abdoulie Sanyang,CHN/VHS
+98,2,CRR,8,62106.1,11,Chamen,7,62106.1.07,7,Muhammed Sidibeh,CHN
+99,2,CRR,8,62106.1,11,Chamen,8,62106.1.08,8,Binta A.M Keita,CNA
+100,2,CRR,8,62106.1,11,Chamen,9,62106.1.09,9,Sankung Fatty,APHO
+101,2,CRR,8,62106.1,11,Chamen,10,62106.1.10,10,Modou Lamin Manneh,APHO
+102,2,CRR,8,62106.1,11,Chamen,11,62106.1.11,11,Bakary S. Dibba,LTI
+103,2,CRR,13,63118.1,16,Kuntaur,1,63118.1.01,1,Musa Samateh,SRM
+104,2,CRR,13,63118.1,16,Kuntaur,2,63118.1.02,2,Ebrima D Ceesay,RN
+105,2,CRR,13,63118.1,16,Kuntaur,3,63118.1.03,3,Fatoumata A. Mballow,RN
+106,2,CRR,13,63118.1,16,Kuntaur,4,63118.1.04,4,Adam Ndow,RN
+107,2,CRR,13,63118.1,16,Kuntaur,5,63118.1.05,5,Oulimatou Badjie,RN
+108,2,CRR,13,63118.1,16,Kuntaur,6,63118.1.06,6,Ensa Jarjue,RN
+109,2,CRR,13,63118.1,16,Kuntaur,7,63118.1.07,7,Abdoukarim Darboe,SEN/M
+110,2,CRR,13,63118.1,16,Kuntaur,8,63118.1.08,8,Lamin Sanyang,SEN/M
+111,2,CRR,13,63118.1,16,Kuntaur,9,63118.1.09,9,Alfusainey Dibba,SEN
+112,2,CRR,13,63118.1,16,Kuntaur,10,63118.1.10,10,Tamba  Sabally,SEN
+113,2,CRR,13,63118.1,16,Kuntaur,11,63118.1.11,11,Ebrima Danso,CNA
+114,2,CRR,13,63118.1,16,Kuntaur,12,63118.1.12,12,Amadou AS Camara,SEN
+115,2,CRR,13,63118.1,16,Kuntaur,13,63118.1.13,13,Andrew Jammeh,SEN
+116,2,CRR,13,63118.1,16,Kuntaur,14,63118.1.14,14,Kodou Ndure,CHN
+117,2,CRR,13,63118.1,16,Kuntaur,15,63118.1.15,15,Aminata fadera,CHN/VHS
+118,2,CRR,13,63118.1,16,Kuntaur,16,63118.1.16,16,Lamin Jarju,CHN/VHS
+119,2,CRR,13,63118.1,16,Kuntaur,17,63118.1.17,17,Momodou Lamin Jammeh,CHN/VHS
+120,2,CRR,13,63118.1,16,Kuntaur,18,63118.1.18,18,Ismaila Ceesay,CHN/VHS
+121,2,CRR,13,63118.1,16,Kuntaur,19,63118.1.19,19,Yusupha Sanyang,CNA
+122,2,CRR,13,63118.1,16,Kuntaur,20,63118.1.20,20,Aminata Saidy,CNA
+123,2,CRR,13,63118.1,16,Kuntaur,21,63118.1.21,21,Adam Thop,CNA
+124,2,CRR,13,63118.1,16,Kuntaur,22,63118.1.22,22,Isatou Darbo,CNA
+125,2,CRR,13,63118.1,16,Kuntaur,23,63118.1.23,23,Sulayman Barry,CNA
+126,2,CRR,13,63118.1,16,Kuntaur,24,63118.1.24,24,Lamin Touray,CNA
+127,2,CRR,13,63118.1,16,Kuntaur,25,63118.1.25,25,Baboucarr Loum,PHO Desk Officer
+128,2,CRR,13,63118.1,16,Kuntaur,26,63118.1.26,26,Chernor H Jallow,APHO
+129,2,CRR,13,63118.1,16,Kuntaur,27,63118.1.27,27,Amadou Camara,APHO
+130,2,CRR,13,63118.1,16,Kuntaur,28,63118.1.28,28,Fatou Mbowe,Lab Assistant
+131,2,CRR,13,63118.1,16,Kuntaur,29,63118.1.29,29,Lasana K Ceesay,LTI
+132,2,CRR,13,63118.1,16,Kuntaur,30,63118.1.30,30,Mariama Sissawo,DRF
+133,2,CRR,13,63118.1,16,Kuntaur,31,63118.1.31,31,Lamin F Ceesay,DEC
+134,2,CRR,13,63118.1,16,Kuntaur,32,63118.1.32,32,Alhagie Jawneh,Orderly
+135,2,CRR,13,63118.1,16,Kuntaur,33,63118.1.33,33,Saika Gaye,DEC
+136,2,CRR,14,70122.1,17,Sami Karantaba,1,70122.1.01,1,Baatou AM. Camara,RM
+137,2,CRR,14,70122.1,17,Sami Karantaba,2,70122.1.02,2,Seedy Jaiteh,RN
+138,2,CRR,14,70122.1,17,Sami Karantaba,3,70122.1.03,3,Ousman Sowe,CHN/M
+139,2,CRR,14,70122.1,17,Sami Karantaba,4,70122.1.04,4,Morro K. Gitteh,SEN/Opth
+140,2,CRR,14,70122.1,17,Sami Karantaba,5,70122.1.05,5,Sulayman Keita,CHN/VHS
+141,2,CRR,14,70122.1,17,Sami Karantaba,6,70122.1.06,6,Foday Bojang,CHN/VHS
+142,2,CRR,14,70122.1,17,Sami Karantaba,7,70122.1.07,7,Maimuna Bah,CHN
+143,2,CRR,14,70122.1,17,Sami Karantaba,8,70122.1.08,8,Kansia Ceesay,NA
+144,2,CRR,14,70122.1,17,Sami Karantaba,9,70122.1.09,9,Alhagie Touray,CNA
+145,2,CRR,14,70122.1,17,Sami Karantaba,10,70122.1.10,10,Musa Jammeh,APHO
+146,2,CRR,10,75101.1,13,Janjangbureh,1,75101.1.01,1,Yusupha Korta,RN/M
+147,2,CRR,10,75101.1,13,Janjangbureh,2,75101.1.02,2,Mariama Jammeh,RN
+148,2,CRR,10,75101.1,13,Janjangbureh,3,75101.1.03,3,Kumba Ceesay,SEN/M
+149,2,CRR,10,75101.1,13,Janjangbureh,4,75101.1.04,4,Anna P. Bojang,SEN/M
+150,2,CRR,10,75101.1,13,Janjangbureh,5,75101.1.05,5,Ousman Jarju,SEN
+151,2,CRR,10,75101.1,13,Janjangbureh,6,75101.1.06,6,Abdourahman jallow,SEN
+152,2,CRR,10,75101.1,13,Janjangbureh,7,75101.1.07,7,Neneh Galleh Jallow,CNA
+153,2,CRR,10,75101.1,13,Janjangbureh,8,75101.1.08,8,Hawa Sey,SEN
+154,2,CRR,10,75101.1,13,Janjangbureh,9,75101.1.09,9,Mustapha Sanyang,CHN
+155,2,CRR,10,75101.1,13,Janjangbureh,10,75101.1.10,10,Lamin Jaiteh,CHN/VHS
+156,2,CRR,10,75101.1,13,Janjangbureh,11,75101.1.11,11,Tida Y. Kambi,CHN
+157,2,CRR,10,75101.1,13,Janjangbureh,12,75101.1.12,12,Jabou Danso,CNA
+158,2,CRR,10,75101.1,13,Janjangbureh,13,75101.1.13,13,Ebrima Sanneh,CNA
+159,2,CRR,10,75101.1,13,Janjangbureh,14,75101.1.14,14,Ousman Bah,APHO
+160,1,URR,22,84233.1,6,Yero Bawol,1,84233.1.01,1,Samba Boye,RN/OIC
+161,1,URR,22,84233.1,6,Yero Bawol,2,84233.1.02,2,Lamin Bunja Nyassi,CHN Midwife
+162,1,URR,22,84233.1,6,Yero Bawol,3,84233.1.03,3,Ebrima Huma,APHO
+163,1,URR,22,84233.1,6,Yero Bawol,4,84233.1.04,4,Omar  K Joof,CHM
+164,1,URR,22,84233.1,6,Yero Bawol,5,84233.1.05,5,Fatoumata .k. Trawally,CHN
+165,1,URR,22,84233.1,6,Yero Bawol,6,84233.1.06,6,Isatou Sawaneh,CHN
+166,1,URR,22,84233.1,6,Yero Bawol,7,84233.1.07,7,Momodou .S. Jallow,CHN/VHS
+167,1,URR,22,84233.1,6,Yero Bawol,8,84233.1.08,8,Antoinette Colley,CHN/VHS
+168,1,URR,22,84233.1,6,Yero Bawol,9,84233.1.09,9,Foday AF. Touray,CHN/VHS
+169,1,URR,22,84233.1,6,Yero Bawol,10,84233.1.10,10,Ba Malang Kambai,Lab Assisitant
+170,1,URR,22,84233.1,6,Yero Bawol,11,84233.1.11,11,Hanyima Sankareh,Nurse Attendant
+171,1,URR,22,84233.1,6,Yero Bawol,12,84233.1.12,12,Samba Baldeh ,Nurse Attendant
+172,1,URR,18,86105.1,8,Diabugu,1,86105.1.01,1,Alasana Barry,EM/OIC
+173,1,URR,18,86105.1,8,Diabugu,2,86105.1.02,2,Mariama Manneh,APHO
+174,1,URR,18,86105.1,8,Diabugu,3,86105.1.03,3,Musa Keita,APHO
+175,1,URR,18,86105.1,8,Diabugu,4,86105.1.04,4,Kaddijatou Jallow,CHM
+176,1,URR,18,86105.1,8,Diabugu,5,86105.1.05,5,Batapha Drammeh,CHN
+177,1,URR,18,86105.1,8,Diabugu,6,86105.1.06,6,Ansumana Drammeh,CHN/CON
+178,1,URR,18,86105.1,8,Diabugu,7,86105.1.07,7,Fatou Sarr,CHN
+179,1,URR,18,86105.1,8,Diabugu,8,86105.1.08,8,Muhammed Trawally,CHN/VHS
+180,1,URR,18,86105.1,8,Diabugu,9,86105.1.09,9,Abu Saidy,CHN/VHS
+181,1,URR,18,86105.1,8,Diabugu,10,86105.1.10,10,Ma Penda Ceesay,CHN
+182,1,URR,18,86105.1,8,Diabugu,11,86105.1.11,11,Alagie Sanneh,Lab Assisitant
+183,1,URR,18,86105.1,8,Diabugu,12,86105.1.12,12,Essa Touray,Nurse Attendant/LTI
+184,1,URR,18,86105.1,8,Diabugu,13,86105.1.13,13,Dembo Jaiteh,Nurse Attendant
+185,1,URR,18,86105.1,8,Diabugu,14,86105.1.14,14,Hagie M Njie,Nurse Attendant
+186,1,URR,15,85101.1,5,Baja Kunda,1,85101.1.01,1,Sheriff Kanyi,SCM/OIC
+187,1,URR,15,85101.1,5,Baja Kunda,2,85101.1.02,2,Omar Jallow,APHO
+188,1,URR,15,85101.1,5,Baja Kunda,3,85101.1.03,3,Benjamin Jammeh,APHO
+189,1,URR,15,85101.1,5,Baja Kunda,4,85101.1.04,4,Lamin Kijera,RN
+190,1,URR,15,85101.1,5,Baja Kunda,5,85101.1.05,5,Sulayman Sarr,CHM
+191,1,URR,15,85101.1,5,Baja Kunda,6,85101.1.06,6,Sainey Camara,CHN/HVS
+192,1,URR,15,85101.1,5,Baja Kunda,7,85101.1.07,7,Almami Fofana,CHN/VHS
+193,1,URR,15,85101.1,5,Baja Kunda,8,85101.1.08,8,Alieu Bah,Nurse Attendant /LTI
+194,1,URR,15,85101.1,5,Baja Kunda,9,85101.1.09,9,Muhammed Jallow,SEN / CON
+195,1,URR,15,85101.1,5,Baja Kunda,10,85101.1.10,10,Fatou T Krubally,Nurse Attendant
+196,1,URR,15,85101.1,5,Baja Kunda,11,85101.1.11,11,Sainabou Dem,Nurse Attendant
+197,1,URR,15,85101.1,5,Baja Kunda,12,85101.1.12,12,Muhammed Baldeh,Lab Assisitant
+198,1,URR,20,80204.1,2,Gambisara,1,80204.1.01,1,Yaya Bah,EM/OIC
+199,1,URR,20,80204.1,2,Gambisara,2,80204.1.02,2,Majula Kuyateh,PHO
+200,1,URR,20,80204.1,2,Gambisara,3,80204.1.03,3,Gibril Sowe,APHO
+201,1,URR,20,80204.1,2,Gambisara,4,80204.1.04,4,Kaddy Marong,EM
+202,1,URR,20,80204.1,2,Gambisara,5,80204.1.05,5,Numo Komma ,EN
+203,1,URR,20,80204.1,2,Gambisara,6,80204.1.06,6,Kolly Bah,CHN/CON
+204,1,URR,20,80204.1,2,Gambisara,7,80204.1.07,7,Ebrima Joof,CHN/VHS
+205,1,URR,20,80204.1,2,Gambisara,8,80204.1.08,8,Samba Nyang,CHN/VHS
+206,1,URR,20,80204.1,2,Gambisara,9,80204.1.09,9,Abdoulie .O. Jallow,Nurse Attendant/LTI
+207,1,URR,20,80204.1,2,Gambisara,10,80204.1.10,10,Tida Bah,Nurse Attendant
+208,1,URR,20,80204.1,2,Gambisara,11,80204.1.11,11,Buba L. Njie,Lab Assisitant
+209,1,URR,17,80201.1,7,Demba Kunda,1,80201.1.01,1,Sunkary Jimbara,EM/OIC
+210,1,URR,17,80201.1,7,Demba Kunda,2,80201.1.02,2,Ousman Minteh,APHO
+211,1,URR,17,80201.1,7,Demba Kunda,3,80201.1.03,3,Ya Neneh Gassama,CHM
+212,1,URR,17,80201.1,7,Demba Kunda,4,80201.1.04,4,Kumba M. Sanyang,EN
+213,1,URR,17,80201.1,7,Demba Kunda,5,80201.1.05,5,Fatou Colley,CHN
+214,1,URR,17,80201.1,7,Demba Kunda,6,80201.1.06,6,Muhammed Joof,CHN/VHS
+215,1,URR,17,80201.1,7,Demba Kunda,7,80201.1.07,7,Mansong S. Danso,Nurse Attendant
+216,1,URR,19,83205.1,3,Fatoto,1,83205.1.01,1,Ebrima  M. Jallow,RN/OIC
+217,1,URR,19,83205.1,3,Fatoto,2,83205.1.02,2,Alpha Sowe,PHO
+218,1,URR,19,83205.1,3,Fatoto,3,83205.1.03,3,Ebrima  Camara,APHO
+219,1,URR,19,83205.1,3,Fatoto,4,83205.1.04,4,Isatou Jarbo,APHO
+220,1,URR,19,83205.1,3,Fatoto,5,83205.1.05,5,Oulay Njie,EM
+221,1,URR,19,83205.1,3,Fatoto,6,83205.1.06,6,Salimatou Nying,CHM
+222,1,URR,19,83205.1,3,Fatoto,7,83205.1.07,7,Arafang Bah,EN
+223,1,URR,19,83205.1,3,Fatoto,8,83205.1.08,8,Amadou Jallow,CHN/VHS
+224,1,URR,19,83205.1,3,Fatoto,9,83205.1.09,9,Alagie Touray,CHN/VHS
+225,1,URR,19,83205.1,3,Fatoto,10,83205.1.10,10,Mamudou Jallow,Dispensing Assistant
+226,1,URR,19,83205.1,3,Fatoto,11,83205.1.11,11,Lamin T Bojang,Lab Assisitant
+227,1,URR,19,83205.1,3,Fatoto,12,83205.1.12,12,Anna Njie,Nurse Attendant
+228,1,URR,19,83205.1,3,Fatoto,13,83205.1.13,13,Madusu Sanyang,Nurse Attendant
+229,1,URR,19,83205.1,3,Fatoto,14,83205.1.14,14,Adama Jatta,Nurse Attendant
+230,1,URR,21,83217.1,4,Koina,1,83217.1.01,1,Ramatoulie I. Camara,SCM/OIC
+231,1,URR,21,83217.1,4,Koina,2,83217.1.02,2,Madieu Jallow,RN
+232,1,URR,21,83217.1,4,Koina,3,83217.1.03,3,Abdul Bah,APHO
+233,1,URR,21,83217.1,4,Koina,4,83217.1.04,4,Jabou Kinteh,CHM
+234,1,URR,21,83217.1,4,Koina,5,83217.1.05,5,Lamin Jatta,CHM
+235,1,URR,21,83217.1,4,Koina,6,83217.1.06,6,Omar I. Ceesay,CHN/VHS
+236,1,URR,21,83217.1,4,Koina,7,83217.1.07,7,Fatoumata K Trawally,CHN
+237,1,URR,21,83217.1,4,Koina,8,83217.1.08,8,Sukai Gumaneh,EN
+238,1,URR,21,83217.1,4,Koina,9,83217.1.09,9,Yaya Sowe,Lab Assisitant
+239,1,URR,21,83217.1,4,Koina,10,83217.1.10,10,Aminata Baldeh,Nurse Attendant
+240,1,URR,16,81102.1,1,Basse,1,81102.1.01,1,Pa Seedy Jarju,SCM/OIC
+241,1,URR,16,81102.1,1,Basse,2,81102.1.02,2,Dr. Masirending Njie,
+242,1,URR,16,81102.1,1,Basse,3,81102.1.03,3,Ebrima Dukureh,SOMA
+243,1,URR,16,81102.1,1,Basse,4,81102.1.04,4,Sera Conteh,SCM
+244,1,URR,16,81102.1,1,Basse,5,81102.1.05,5,Aminata Sillah,PHO
+245,1,URR,16,81102.1,1,Basse,6,81102.1.06,6,Sedia Jawneh,APHO
+246,1,URR,16,81102.1,1,Basse,7,81102.1.07,7,Ebrima .K Jallow,APHO
+247,1,URR,16,81102.1,1,Basse,8,81102.1.08,8,Mariama Fofana,APHO
+248,1,URR,16,81102.1,1,Basse,9,81102.1.09,9,Momodou .J.Jallow,APHO
+249,1,URR,16,81102.1,1,Basse,10,81102.1.10,10,Adama Saidyba,APHO
+250,1,URR,16,81102.1,1,Basse,11,81102.1.11,11,Raymond Correa,APHO
+251,1,URR,16,81102.1,1,Basse,12,81102.1.12,12,Simon Mendy,OMA
+252,1,URR,16,81102.1,1,Basse,13,81102.1.13,13,Aminata Mballo,RN
+253,1,URR,16,81102.1,1,Basse,14,81102.1.14,14,Yassin Sanneh,RN
+254,1,URR,16,81102.1,1,Basse,15,81102.1.15,15,Bakary Camara,RN
+255,1,URR,16,81102.1,1,Basse,16,81102.1.16,16,Jalamba Kora,RN
+256,1,URR,16,81102.1,1,Basse,17,81102.1.17,17,Fatou Ceesay,RN
+257,1,URR,16,81102.1,1,Basse,18,81102.1.18,18,Lamin Jarju,RN
+258,1,URR,16,81102.1,1,Basse,19,81102.1.19,19,Sarjo Ceesay,RN
+259,1,URR,16,81102.1,1,Basse,20,81102.1.20,20,Mariama H. Jallow,RN
+260,1,URR,16,81102.1,1,Basse,21,81102.1.21,21,Sambang Ceesay,EM
+261,1,URR,16,81102.1,1,Basse,22,81102.1.22,22,Halimatou Sowe,EM
+262,1,URR,16,81102.1,1,Basse,23,81102.1.23,23,Isatou Bah,EM
+263,1,URR,16,81102.1,1,Basse,24,81102.1.24,24,Mariama Joof,EM
+264,1,URR,16,81102.1,1,Basse,25,81102.1.25,25,Babung Touray,EM
+265,1,URR,16,81102.1,1,Basse,26,81102.1.26,26,Essa Secka,CHM
+266,1,URR,16,81102.1,1,Basse,27,81102.1.27,27,Manyo Gibba,CHM
+267,1,URR,16,81102.1,1,Basse,28,81102.1.28,28,Fatou Jammeh,CHM
+268,1,URR,16,81102.1,1,Basse,29,81102.1.29,29,Adama Bah,CHM
+269,1,URR,16,81102.1,1,Basse,30,81102.1.30,30,Mayang Manneh,CHM
+270,1,URR,16,81102.1,1,Basse,31,81102.1.31,31,Mariatou Demba,CHM
+271,1,URR,16,81102.1,1,Basse,32,81102.1.32,32,Hawlatou Jallow,EN
+272,1,URR,16,81102.1,1,Basse,33,81102.1.33,33,Maimuna Jarju,EN
+273,1,URR,16,81102.1,1,Basse,34,81102.1.34,34,Fatoumata F. Jallow,EN
+274,1,URR,16,81102.1,1,Basse,35,81102.1.35,35,Abdoulie Bajo,EN
+275,1,URR,16,81102.1,1,Basse,36,81102.1.36,36,Makoly Baldeh,CHN
+276,1,URR,16,81102.1,1,Basse,37,81102.1.37,37,Sulayman Bah,CHN
+277,1,URR,16,81102.1,1,Basse,38,81102.1.38,38,Mamadi Manneh,CHN/VHS
+278,1,URR,16,81102.1,1,Basse,39,81102.1.39,39,Mamudou .H.M. Jobarteh,CHN/VHS
+279,1,URR,16,81102.1,1,Basse,40,81102.1.40,40,Lamin S. Jammeh,CHN/VHS
+280,1,URR,16,81102.1,1,Basse,41,81102.1.41,41,Hamidou Baldeh,EN
+281,1,URR,16,81102.1,1,Basse,42,81102.1.42,42,Mamadou Bah,Radiology Assisitant
+282,1,URR,16,81102.1,1,Basse,43,81102.1.43,43,Abdoulie S. Janko,Radiology Assisitant
+283,1,URR,16,81102.1,1,Basse,44,81102.1.44,44,Lamin  Sanyang,Nurse Attendant
+284,1,URR,16,81102.1,1,Basse,45,81102.1.45,45,Momodou Sowe,Lab Scientist
+285,1,URR,16,81102.1,1,Basse,46,81102.1.46,46,Lamin Njie,Lab Assisitant
+286,1,URR,16,81102.1,1,Basse,47,81102.1.47,47,Lamin A. Ceesay,Lab Assisitant
+287,1,URR,16,81102.1,1,Basse,48,81102.1.48,48,Ass Ahmed Jallow,Lab Assisitant
+288,1,URR,16,81102.1,1,Basse,49,81102.1.49,49,Nyima Conteh,Dispensing Assistant
+289,1,URR,16,81102.1,1,Basse,50,81102.1.50,50,Yaya Dambelle,Dispensing Assistant
+290,1,URR,16,81102.1,1,Basse,51,81102.1.51,51,Ya Sannu Janneh,Nurse Attendant
+291,1,URR,16,81102.1,1,Basse,52,81102.1.52,52,Sohna Jobe,Nurse Attendant
+292,1,URR,16,81102.1,1,Basse,53,81102.1.53,53,Makala Jatta,Nurse Attendant
+293,1,URR,16,81102.1,1,Basse,54,81102.1.54,54,Fatoumata Fadera,Nurse Attendant
+294,1,URR,16,81102.1,1,Basse,55,81102.1.55,55,Fatou N. Baldeh,Nurse Attendant
+295,1,URR,16,81102.1,1,Basse,56,81102.1.56,56,Mama Susso,Nurse Attendant
+296,1,URR,16,81102.1,1,Basse,57,81102.1.57,57,Assiatou Sowe,Nurse Attendant
+297,1,URR,16,81102.1,1,Basse,58,81102.1.58,58,Musa S Jawo,Nurse Attendant
+298,1,URR,16,81102.1,1,Basse,59,81102.1.59,59,Sulayman Keita,Nurse Attendant
+299,1,URR,16,81102.1,1,Basse,60,81102.1.60,60,Nyalling Danso,Nurse Attendant
+300,1,URR,16,81102.1,1,Basse,61,81102.1.61,61,Elizabeth Baldeh,Nurse Attendant
+301,1,URR,16,81102.1,1,Basse,62,81102.1.62,62,Ndey Sarr,Nurse Attendant
+302,1,URR,16,81102.1,1,Basse,63,81102.1.63,63,Mamadi F Keita,Nurse Attendant
+303,1,URR,16,81102.1,1,Basse,64,81102.1.64,64,Mariama A Jallow ,Nurse Attendant
+304,1,URR,16,81102.1,1,Basse,65,81102.1.65,65,Lala Baldeh,Nurse Attendant
+305,3,NBR W,1,51201.1,20,Albreda,1,51201.1.01,1,Alieu Joof,CHN/M
+306,3,NBR W,1,51201.1,20,Albreda,2,51201.1.02,2,Sirreh Badjie,CHN/M
+307,3,NBR W,1,51201.1,20,Albreda,3,51201.1.03,3,Baboucarr Baye Drammeh,RN
+308,3,NBR W,1,51201.1,20,Albreda,4,51201.1.04,4,Lamin Gassama,APHO
+309,3,NBR W,1,51201.1,20,Albreda,5,51201.1.05,5,Ismaila Kasseh,APHO
+310,3,NBR W,1,51201.1,20,Albreda,6,51201.1.06,6,Fatoumata.B. TOURAY,CHN
+311,3,NBR W,1,51201.1,20,Albreda,7,51201.1.07,7,Mariatou Nyassi,CHN/LTI
+312,3,NBR W,1,51201.1,20,Albreda,8,51201.1.08,8,Lamin Jammeh,CHN/VHS
+313,3,NBR W,1,51201.1,20,Albreda,9,51201.1.09,9,Lamin Darboe,CHN/VHS
+314,3,NBR W,1,51201.1,20,Albreda,10,51201.1.10,10,Mariama Cham,SEN
+315,3,NBR W,1,51201.1,20,Albreda,11,51201.1.11,11,Ma-Bintou Janha,CHN
+316,3,NBR W,1,51201.1,20,Albreda,12,51201.1.12,12,Mustapha Cham,CNA
+317,3,NBR W,1,51201.1,20,Albreda,13,51201.1.13,13,Fatou Nyabally,CNA
+318,3,NBR W,1,51201.1,20,Albreda,14,51201.1.14,14,Kaddy Fatty,CNA
+319,3,NBR W,1,51201.1,20,Albreda,15,51201.1.15,15,Basainey Jammeh,LAB .Ass
+320,3,NBR W,4,52216.1,19,Kuntaya,1,52216.1.01,1,Samba Bah,RN Midwife
+321,3,NBR W,4,52216.1,19,Kuntaya,2,52216.1.02,2,Amie Bobb,CHN Midwife 
+322,3,NBR W,4,52216.1,19,Kuntaya,3,52216.1.03,3,Bugut Sowe ,SEN Midwife 
+323,3,NBR W,4,52216.1,19,Kuntaya,4,52216.1.04,4,Alagie Touray,RN General
+324,3,NBR W,4,52216.1,19,Kuntaya,5,52216.1.05,5,Aji Banuna Jallow,RN General
+325,3,NBR W,4,52216.1,19,Kuntaya,6,52216.1.06,6,Sarjo Chorr,SEN General
+326,3,NBR W,4,52216.1,19,Kuntaya,7,52216.1.07,7,Satang Mballow,CHN General
+327,3,NBR W,4,52216.1,19,Kuntaya,8,52216.1.08,8,Ebrima Njie,Public Health Officer
+328,3,NBR W,4,52216.1,19,Kuntaya,9,52216.1.09,9,Bintou b. Touray,Public Health Officer
+329,3,NBR W,4,52216.1,19,Kuntaya,10,52216.1.10,10,Alieu Sawaneh,Public Health Officer
+330,3,NBR W,4,52216.1,19,Kuntaya,11,52216.1.11,11,Haddy Jobe ,Senior CNA
+331,3,NBR W,4,52216.1,19,Kuntaya,12,52216.1.12,12,Musa s. Jarju ,CNA
+332,3,NBR W,4,52216.1,19,Kuntaya,13,52216.1.13,13,Mariama Njie,CNA
+333,3,NBR W,4,52216.1,19,Kuntaya,14,52216.1.14,14,Ramatoulie Drammeh,CNA
+334,3,NBR W,4,52216.1,19,Kuntaya,15,52216.1.15,15,Momodou Sarr,Lab. Assistant 
+335,3,NBR W,4,52216.1,19,Kuntaya,16,52216.1.16,16,Bakary L.k. Fofana,CHN/VHS
+336,3,NBR W,4,52216.1,19,Kuntaya,17,52216.1.17,17,Ousman Kanyi,CHN/VHS
+337,3,NBR W,4,52216.1,19,Kuntaya,18,52216.1.18,18,Abou Suwareh,CHN/VHS
+338,3,NBR W,4,52216.1,19,Kuntaya,19,52216.1.19,19,Abdoulie Jallow,CHN/VHS
+339,3,NBR W,4,52216.1,19,Kuntaya,20,52216.1.20,20,Essa Keita,CHN/VHS
+340,3,NBR W,3,51212.1,21,Kerr Cherno,1,51212.1.01,1,Mam Isatou Jallow,RN MIDWIFE
+341,3,NBR W,3,51212.1,21,Kerr Cherno,2,51212.1.02,2,SAKO  CEESAY,SEM
+342,3,NBR W,3,51212.1,21,Kerr Cherno,3,51212.1.03,3,ELIYASA .M. JALLOW,SEN
+343,3,NBR W,3,51212.1,21,Kerr Cherno,4,51212.1.04,4,AMADOU JARJU,RN
+344,3,NBR W,3,51212.1,21,Kerr Cherno,5,51212.1.05,5,PA ALI SALLAH,CNA
+345,3,NBR W,3,51212.1,21,Kerr Cherno,6,51212.1.06,6,MAIMUNA JOOF,CNA
+346,3,NBR W,3,51212.1,21,Kerr Cherno,7,51212.1.07,7,SANG M JARJU,APHO
+347,3,NBR W,3,51212.1,21,Kerr Cherno,8,51212.1.08,8,SALIM CEESAY,LAB ASSITANT
+348,3,NBR W,3,51212.1,21,Kerr Cherno,9,51212.1.09,9,LAMIN SUWANEH,CHN/VHS
+349,3,NBR W,3,51212.1,21,Kerr Cherno,10,51212.1.10,10,ASSAN CHORR,CHN/VHS
+350,3,NBR W,3,51212.1,21,Kerr Cherno,11,51212.1.11,11,AMADOU SAIDY,CHN/VHS
+351,3,NBR W,5,51115.1,22,Nemakunku,1,51115.1.01,1,BAFODAY JAMMEH,SCHNM
+352,3,NBR W,5,51115.1,22,Nemakunku,2,51115.1.02,2,MAIMUNA SUWAREH,CHN
+353,3,NBR W,5,51115.1,22,Nemakunku,3,51115.1.03,3,JOHN B MENDY,PHO
+354,3,NBR W,5,51115.1,22,Nemakunku,4,51115.1.04,4,MAIMUNA BADJIE,PHO
+355,3,NBR W,5,51115.1,22,Nemakunku,5,51115.1.05,5,SANAIBOU FATTY,CNA
+356,3,NBR W,5,51115.1,22,Nemakunku,6,51115.1.06,6,JALIMA SANNEH,CNA
+357,3,NBR W,5,51115.1,22,Nemakunku,7,51115.1.07,7,OMAR DANSO,CHN/VHS
+358,3,NBR W,2,50130.1,18,Essau,1,50130.1.01,1,John Joseph Mendy                        ,RM/SNO
+359,3,NBR W,2,50130.1,18,Essau,2,50130.1.02,2,Mustapha Jagne,SOMA
+360,3,NBR W,2,50130.1,18,Essau,3,50130.1.03,3,Abubacarr Jarju,OMA
+361,3,NBR W,2,50130.1,18,Essau,4,50130.1.04,4,Isatou B Jallow,SCM
+362,3,NBR W,2,50130.1,18,Essau,5,50130.1.05,5,Therese M Mendy,SCM
+363,3,NBR W,2,50130.1,18,Essau,6,50130.1.06,6,Salieu Jang Jallow,RN
+364,3,NBR W,2,50130.1,18,Essau,7,50130.1.07,7,Alhagie Sanyang,RN
+365,3,NBR W,2,50130.1,18,Essau,8,50130.1.08,8,Rohey Drammeh,RN
+366,3,NBR W,2,50130.1,18,Essau,9,50130.1.09,9,Dawda Jammeh,RN
+367,3,NBR W,2,50130.1,18,Essau,10,50130.1.10,10,Francess B King,RN
+368,3,NBR W,2,50130.1,18,Essau,11,50130.1.11,11,Fatoumata Sey,RN
+369,3,NBR W,2,50130.1,18,Essau,12,50130.1.12,12,Sanna Keita,SSEM
+370,3,NBR W,2,50130.1,18,Essau,13,50130.1.13,13,Fatou Camara,SSEM
+371,3,NBR W,2,50130.1,18,Essau,14,50130.1.14,14,Nyima Badjie,SSEM
+372,3,NBR W,2,50130.1,18,Essau,15,50130.1.15,15,Lamin Joof,SEM
+373,3,NBR W,2,50130.1,18,Essau,16,50130.1.16,16,Modou Jallow,CON
+374,3,NBR W,2,50130.1,18,Essau,17,50130.1.17,17,Lamin Kambi,SEN/LTI
+375,3,NBR W,2,50130.1,18,Essau,18,50130.1.18,18,Jainaba Sonko,CHM
+376,3,NBR W,2,50130.1,18,Essau,19,50130.1.19,19,Jarrai Keita,CHM
+377,3,NBR W,2,50130.1,18,Essau,20,50130.1.20,20,Omar Sarr,CHM
+378,3,NBR W,2,50130.1,18,Essau,21,50130.1.21,21,Buba H Jallow,CHN
+379,3,NBR W,2,50130.1,18,Essau,22,50130.1.22,22,Isatou Nyassi,CHN
+380,3,NBR W,2,50130.1,18,Essau,23,50130.1.23,23,Marie Therese Mendy,CHN
+381,3,NBR W,2,50130.1,18,Essau,24,50130.1.24,24,Rohey Joof,C N A
+382,3,NBR W,2,50130.1,18,Essau,25,50130.1.25,25,Fatou Marong,C N A
+383,3,NBR W,2,50130.1,18,Essau,26,50130.1.26,26,Mbie Saho,C N A
+384,3,NBR W,2,50130.1,18,Essau,27,50130.1.27,27,Binta Cham,C N A
+385,3,NBR W,2,50130.1,18,Essau,28,50130.1.28,28,Fatou K Njie,C N A
+386,3,NBR W,2,50130.1,18,Essau,29,50130.1.29,29,Isatou Barrow,C N A
+387,3,NBR W,2,50130.1,18,Essau,30,50130.1.30,30,Alasana Mboom,C N A
+388,3,NBR W,2,50130.1,18,Essau,31,50130.1.31,31,Ndey D Jammeh,C N A
+389,3,NBR W,2,50130.1,18,Essau,32,50130.1.32,32,Ndey  Fatou Jallow,C N A
+390,3,NBR W,2,50130.1,18,Essau,33,50130.1.33,33,Sira Sonko,C N A
+391,3,NBR W,2,50130.1,18,Essau,34,50130.1.34,34,Fatou Ndure,C N A
+392,3,NBR W,2,50130.1,18,Essau,35,50130.1.35,35,Nyima Sonko,C N A
+393,3,NBR W,2,50130.1,18,Essau,36,50130.1.36,36,Fatou Jaiteh,C N A
+394,3,NBR W,2,50130.1,18,Essau,37,50130.1.37,37,Dado Jarju,C N A
+395,3,NBR W,2,50130.1,18,Essau,38,50130.1.38,38,Saikou Bah,DR
+396,3,NBR W,2,50130.1,18,Essau,39,50130.1.39,39,Mustapha Demba,PHO
+397,3,NBR W,2,50130.1,18,Essau,40,50130.1.40,40,Kaddy  Ceesay,APHO
+398,3,NBR W,2,50130.1,18,Essau,41,50130.1.41,41,Ebrima Bah,APHO
+399,3,NBR W,2,50130.1,18,Essau,42,50130.1.42,42,Theresa Mendy,APHO
+400,3,NBR W,2,50130.1,18,Essau,43,50130.1.43,43,Omar Ceesay,APHO
+401,3,NBR W,2,50130.1,18,Essau,44,50130.1.44,44,Kaddy Jagne,Lab tech.
+402,3,NBR W,2,50130.1,18,Essau,45,50130.1.45,45,Ebrima Loum,Lab assist
+403,3,NBR W,2,50130.1,18,Essau,46,50130.1.46,46,Fatou Jammeh,Lab assist
+404,3,NBR W,2,50130.1,18,Essau,47,50130.1.47,47,Sanna Sowe,CHN/VHS
+405,3,NBR W,2,50130.1,18,Essau,48,50130.1.48,48,Sarjo B Kinteh,CHN/VHS
+406,3,NBR W,97,59999.1,23,Farafenni Hospital,99,59999.1.99,99,"Other, Specify",
+407,2,CRR,98,79999.1,24,Bansang Hospital,99,79999.1.99,99,"Other, Specify",
+408,2,CRR,6,74103.1,9,Bansang RCH,99,74103.1.99,99,"Other, Specify",
+409,2,CRR,7,73101.1,10,Brikamaba,99,73101.1.99,99,"Other, Specify",
+410,2,CRR,12,72204.1,15,Kudang,99,72204.1.99,99,"Other, Specify",
+411,2,CRR,9,70109.1,12,Dankunku,99,70109.1.99,99,"Other, Specify",
+412,2,CRR,11,60224.1,14,Kaur,99,60224.1.99,99,"Other, Specify",
+413,2,CRR,8,62106.1,11,Chamen,99,62106.1.99,99,"Other, Specify",
+414,2,CRR,13,63118.1,16,Kuntaur,99,63118.1.99,99,"Other, Specify",
+415,2,CRR,14,70122.1,17,Sami Karantaba,99,70122.1.99,99,"Other, Specify",
+416,2,CRR,10,75101.1,13,Janjangbureh,99,75101.1.99,99,"Other, Specify",
+417,1,URR,22,84233.1,6,Yero Bawol,99,84233.1.99,99,"Other, Specify",
+418,1,URR,18,86105.1,8,Diabugu,99,86105.1.99,99,"Other, Specify",
+419,1,URR,15,85101.1,5,Baja Kunda,99,85101.1.99,99,"Other, Specify",
+420,1,URR,20,80204.1,2,Gambisara,99,80204.1.99,99,"Other, Specify",
+421,1,URR,17,80201.1,7,Demba Kunda,99,80201.1.99,99,"Other, Specify",
+422,1,URR,19,83205.1,3,Fatoto,99,83205.1.99,99,"Other, Specify",
+423,1,URR,21,83217.1,4,Koina,99,83217.1.99,99,"Other, Specify",
+424,1,URR,16,81102.1,1,Basse,99,81102.1.99,99,"Other, Specify",
+425,3,NBR W,1,51201.1,20,Albreda,99,51201.1.99,99,"Other, Specify",
+426,3,NBR W,4,52216.1,19,Kuntaya,99,52216.1.99,99,"Other, Specify",
+427,3,NBR W,3,51212.1,21,Kerr Cherno,99,51212.1.99,99,"Other, Specify",
+428,3,NBR W,5,51115.1,22,Nemakunku,99,51115.1.99,99,"Other, Specify",
+429,3,NBR W,2,50130.1,18,Essau,99,50130.1.99,99,"Other, Specify",

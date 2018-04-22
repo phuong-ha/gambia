@@ -1,0 +1,18 @@
+workflow:::publish_rmd_addin
+function () 
+{
+    context <- rstudioapi::getSourceEditorContext()
+    path <- context[["path"]]
+    if (path == "") 
+        stop("Please save file before publishing.", call. = FALSE)
+    if (tolower(tools::file_ext(path)) != "rmd") {
+        todo("Only RMarkdown files with the .Rmd extension are supported.")
+        return(invisible())
+    }
+    if (rstudioapi::hasFun("documentSave")) {
+        rstudioapi::documentSave(context$id)
+    }
+    wf_publish_rmd(path)
+}
+<bytecode: 0x86e3288>
+    <environment: namespace:workflow>

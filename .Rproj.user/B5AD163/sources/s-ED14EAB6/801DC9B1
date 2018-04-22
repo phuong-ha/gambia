@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523792765897.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "801DC9B1",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1523792765897,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "context" : "package:RTA:::get_family_data"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_code_browser"
+}

@@ -1,0 +1,83 @@
+---
+title: ""
+description: ""
+author: "Real-time Analytics"
+date: "`r format(Sys.time(), '%d-%m-%Y %H:%M:%S')`"
+site: "C026"
+uuid: "[new]"
+type: "markdown"
+run_on_tablet: "yes"
+run_on_server: "yes"
+tags: ""
+output:
+    html_document:
+        theme: flatly
+params:
+    username: '$$FilterValue::get_user_info("##USERNAME##","username")$$'
+    userrole: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "user_role")$$'
+    fullname: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "fullname")$$'
+    projcode: '$$FilterValue::get_my_projectcode()$$'
+    platform: '$$FilterValue::get_client_platform()$$'
+---
+
+
+
+```{r setup, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## global setup
+
+knitr::opts_chunk$set(echo = FALSE, comment = "", message = FALSE, warning = FALSE)
+options(shiny.sanitize.errors = FALSE, scipen = 999, knitr.kable.NA = "")
+Sys.setlocale(category = "LC_ALL", locale = "en_US.UTF-8")
+
+## -----------------------------------------------------------------------------
+## load packages
+
+RTA::load_packages(readr, tidyr, dplyr, DT, RTA)
+
+## -----------------------------------------------------------------------------
+## import data
+
+auto_import_all(site = params$projcode)
+
+```
+
+
+```{r tranform-data, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## SECTION 1
+## -----------------------------------------------------------------------------
+
+
+## -----------------------------------------------------------------------------
+## Sub-section 1
+
+
+## -----------------------------------------------------------------------------
+## Sub-section 2
+
+
+
+## -----------------------------------------------------------------------------
+## SECTION 2
+## -----------------------------------------------------------------------------
+
+
+## -----------------------------------------------------------------------------
+## Sub-section 1
+
+
+## -----------------------------------------------------------------------------
+## Sub-section 2
+
+```
+
+--------------------------------------------------------------------------------
+
+```{r ui}
+
+## define your document's outputs here
+
+```

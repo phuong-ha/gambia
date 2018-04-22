@@ -1,0 +1,440 @@
+---
+title: "Survey Progress By Enum"
+author: "Real-time Analytics"
+date: "`r format(Sys.time(), '%d-%m-%Y %H:%M:%S')`"
+output:
+    html_document:
+        theme: readable
+params:
+    username: '$$FilterValue::get_user_info("##USERNAME##","username")$$'
+    userrole: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "user_role")$$'
+    fullname: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "fullname")$$'
+    projcode: '$$FilterValue::get_my_projectcode()$$'      
+
+---
+
+<style>
+    body .main-container {
+        max-width: 100%;
+    }
+</style>
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 14px;
+  }
+td {  /* Table  */
+  font-size: 15px;
+}
+h1.title {
+  font-size: 30px;
+  color: DarkRed;
+}
+h1.author {
+  font-size: 15px;
+  color: DarkRed;
+}
+h1.date {
+  font-size: 15px;
+}
+h1 { /* Header 1 */
+  font-size: 30px;
+  <!-- color: DarkBlue; -->
+}
+h2 { /* Header 2*/
+    font-size: 25px;
+  <!-- color: DarkBlue; -->
+}
+h3 { /* Header 3 */
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  <!-- color: DarkBlue; -->
+}
+code.r{ /* Code block */
+    font-size: 14px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 15px;
+}
+</style>
+
+
+```{r setup, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## global setup
+
+knitr::opts_chunk$set(echo = FALSE, comment = "", message = FALSE, warning = FALSE)
+options(shiny.sanitize.errors = FALSE, scipen = 999)
+options(knitr.kable.NA = '')
+Sys.setlocale(category = "LC_ALL", locale = "en_US.UTF-8")
+
+## -----------------------------------------------------------------------------
+## load packages
+
+RTA::load_packages(readr, tidyr, dplyr, DT, knitr, RTA)
+
+## -----------------------------------------------------------------------------
+## import data
+
+# auto_import_all(site = params$projcode)
+import_family_data(site = params$projcode)
+import_uploaded_data(site = params$projcode)
+report <- "~/gambia/analytics/reports/rmarkdown/2018-04-09_survey-progress-by-enum.Rmd"
+
+
+```
+
+```{r helper-function, include=FALSE}
+
+choice_dict <- function(data, var) {
+    out <- data %>% 
+        filter(list_name == var) %>% 
+        filter(!duplicated(name_id)) 
+    out <- make_dict(out$name_id,
+                     out$name_lb)
+}
+
+```
+
+
+```{r tranform-data, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## combine data
+gambia_hh <- bind_rows(gambia_hh, gambia_hh_ab)
+
+## -----------------------------------------------------------------------------
+## NAME DICT
+
+col <- c("username", "fullname", "family_id", 
+         "submission_date", "starttime", "endtime",
+         "instanceID", "instanceName" ,"deviceid", "consent")
+
+col_f1 <- c("f1_region_id", "f1_region_lb",
+            "f1_hf_id", "f1_hf_lb", 
+            "f1_result", "f1_result_other", "f1_tranlator",
+            "f1_lang", "f1_lang_other")
+col_name_f1 <- c("region_id", "region_lb", 
+                 "facility", "facility_lb",
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_f2 <- c("f2_region", "f2_region_lb", 
+            "f2_faci", "f2_faci_lb",
+            "f2_control_3", "f2_control_3_other", 
+            "f2_control_4", "f2_control_5",
+            "f2_control_5_other")
+col_name_f2 <- c("region_id", "region_lb", 
+                 "facility", "facility_lb",
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+
+col_f3 <- c("f3_region", "f3_region_lb", 
+            "f3_h_facility", "f3_h_facility_lb", 
+            "f3_control_3",
+            "f3_control_3_other", "f3_control_4", "f3_control_5",
+            "f3_control_5_other")
+col_name_f3 <- c("region_id", "region_lb",  
+                 "facility", 
+                 "facility_lb", 
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_f4 <- c("f4_region", "f4_region_lb", 
+            "f4_h_facility",
+            "f4_h_facility_lb", 
+            "f4_control_3",
+            "f4_control_3_other", "f4_control_4", "f4_control_5",
+            "f4_control_5_other")
+col_name_f4 <- c("region_id", "region_lb",
+                 "facility", 
+                 "facility_lb", 
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_hh <- c("fh_region", "fh_region_lb", "fh_eacode", "fh_eacode_lb",
+            "fh_control_2", "fh_control_2_other",
+            "fh_control_3", "fh_control_4",
+            "fh_control_4_other")
+col_name_hh <- c("region_id", "region_lb", "eacode", "eacode_lb",
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_vdc <- c("vdc_region", "vdc_region_lb", 
+             "vdc_control_3", "vdc_control_3_other", 
+             "vdc_control_4", "vdc_control_5",
+             "vdc_control_5_other")
+col_name_vdc <- c("region_id", "region_lb", 
+                  "result", "result_other", "tranlator",
+                  "lang", "lang_other")
+
+col_vsg <- c("vsg_region", "vsg_region_lb", 
+             "vsg_control_3",
+             "vsg_control_3_other", "vsg_control_4", "vsg_control_5",
+             "vsg_control_5_other")
+
+col_name_vsg <- c("region_id", "region_lb", 
+                  "result", "result_other", "tranlator",
+                  "lang", "lang_other")
+
+name_dict_f1 <- make_dict(col_f1, col_name_f1)
+name_dict_f2 <- make_dict(col_f2, col_name_f2)
+name_dict_f3 <- make_dict(col_f3, col_name_f3)
+name_dict_f4 <- make_dict(col_f4, col_name_f4)
+name_dict_hh <- make_dict(col_hh, col_name_hh)
+name_dict_vdc <- make_dict(col_vdc, col_name_vdc)
+name_dict_vsg <- make_dict(col_vsg, col_name_vsg)
+
+## -----------------------------------------------------------------------------
+## select column
+
+gambia_f1 <- gambia_f1 %>% 
+    select(col, col_f1) %>% 
+    mutate(family_id = "F1")
+
+gambia_f2 <- gambia_f2 %>% 
+    select(col, col_f2) %>% 
+    mutate(family_id = "F2")
+
+gambia_f3 <- gambia_f3 %>% 
+    select(col, col_f3) %>% 
+    mutate(family_id = "F3")
+
+gambia_f4 <- gambia_f4 %>% 
+    select(col, col_f4) %>% 
+    mutate(family_id = "F4")
+
+gambia_hh <- gambia_hh %>% 
+    select(col, col_hh) %>% 
+    mutate(family_id = "HH")
+
+gambia_vdc <- gambia_vdc %>% 
+    select(col, col_vdc) %>% 
+    mutate(family_id = "VDC")
+
+gambia_vsg <- gambia_vsg %>% 
+    select(col, col_vsg) %>% 
+    mutate(family_id = "VSG")
+
+## -----------------------------------------------------------------------------
+## change name
+names(gambia_f1) <- encode(names(gambia_f1), name_dict_f1)
+names(gambia_f2) <- encode(names(gambia_f2), name_dict_f2)
+names(gambia_f3) <- encode(names(gambia_f3), name_dict_f3)
+names(gambia_f4) <- encode(names(gambia_f4), name_dict_f4)
+names(gambia_hh) <- encode(names(gambia_hh), name_dict_hh)
+names(gambia_vdc) <- encode(names(gambia_vdc), name_dict_vdc)
+names(gambia_vsg) <- encode(names(gambia_vsg), name_dict_vsg)
+
+## -----------------------------------------------------------------------------
+## combine data
+gambia <- bind_rows(gambia_f1, gambia_f2, gambia_f3, gambia_f4,
+                    gambia_hh, gambia_vdc, gambia_vsg)
+
+## -----------------------------------------------------------------------------
+## deal with instance
+
+gambia <- handle_edited_insts(gambia, "instanceID")
+gambia <- handle_followed_insts(gambia, "instanceID")
+gambia <- handle_returned_insts(gambia, "instanceID")
+gambia <- handle_revised_insts(gambia, "instanceID")
+
+
+## -----------------------------------------------------------------------------
+## clean data
+gambia <- replace_with_na(gambia)
+
+gambia <- mutate(gambia,
+                 date = substr(submission_date, 1, 10))
+
+## -----------------------------------------------------------------------------
+## make dict
+username_dict <- distinct(gambia, username, fullname)
+username_dict <- make_dict(username_dict$username, username_dict$fullname)
+
+consent_dict <- choice_dict(choice_name, "accord")
+hf_type_dict <- choice_dict(choice_name, "hf_type")
+result_dict <- choice_dict(choice_name, "result")
+lang_dict <- choice_dict(choice_name, "language")
+translator_dict <- choice_dict(choice_name, "tranlator")
+
+
+family <- c("F1", "F2", "F3", "F4", 
+             "HH", "VDC", "VSG")
+
+
+gambia <- mutate(gambia,
+                 fullname = encode(fullname, username_dict),
+                 consent = encode(consent, consent_dict),
+                 # hf_type = encode(hf_type, hf_type_dict),
+                 result = encode(result, result_dict),
+                 lang = encode(lang, lang_dict),
+                 result = ifelse(is.na(result_other), result, 
+                                 paste0(result, " ", result_other)),
+                 lang = ifelse(is.na(lang_other), lang, 
+                               paste0(lang, " ", lang_other)),
+                 tranlator = encode(tranlator, translator_dict))
+
+
+## -----------------------------------------------------------------------------
+## calculate duration
+
+gambia <- mutate(gambia,
+                 starttime = ifelse(is.na(starttime) | starttime == "", submission_date, starttime),
+                 endtime = ifelse(is.na(endtime) | endtime == "", submission_date, endtime),
+                 duration = round(difftime(strptime(endtime, format = "%Y-%m-%d %H:%M:%S"),
+                                           strptime(starttime, format = "%Y-%m-%d %H:%M:%S"), 
+                                           units = "mins"), 2),
+                 duration = ifelse(duration < 0, 0, duration))
+
+
+## -----------------------------------------------------------------------------
+## Filter by username
+
+if (Sys.info()["user"] != "phuongha") {
+  	user_name <- params$username
+    gambia <- filter(gambia, username == user_name)
+    username_dict <- distinct(gambia, username, fullname)
+    
+  	if (nrow(username_dict) > 0) {
+        username_dict <- make_dict(username_dict$username, username_dict$fullname)
+    }
+}
+
+```
+
+
+
+```{r calculate-after-filter, include=FALSE}
+
+if (nrow(gambia) > 0) {
+    ## -----------------------------------------------------------------------------
+    ## Aggregate by date and consent
+    
+    ## count by date, consent, fullnanme
+    sum_per_date_consent <- gambia %>% 
+        count(fullname, date, family_id, consent) %>% 
+        spread(family_id, n) %>% 
+        arrange(desc(date), fullname, consent) %>% 
+        mutate(Total = apply(.[, -c(1:3)], 1, sum, na.rm = TRUE))
+    
+    ## Add column missing
+    for (i in 1: length(family)) {
+        if (!family[i] %in% names(sum_per_date_consent)) {
+            sum_per_date_consent <- mutate(sum_per_date_consent,
+                                           new = double(nrow(sum_per_date_consent)))
+            names(sum_per_date_consent)[names(sum_per_date_consent) == "new"] <- family[i]
+        }
+    }
+    
+    ## sum per date and name
+    sum_per_date_name <- sum_per_date_consent %>%
+        group_by(date, fullname) %>%
+        summarise_at(vars(F1, F2, F3, F4, HH, VDC, VSG, Total), funs(sum(., na.rm = TRUE))) %>%
+        mutate(fullname = fullname,
+               # date = date,
+               consent = "<font color='#298A08'><b>Total</b></font>") %>% 
+        bind_rows(sum_per_date_consent) %>%
+        arrange(desc(date), fullname, desc(consent)) %>% 
+        select(date, consent, everything()) %>% 
+        ungroup()
+    sum_per_date_name <- replace_with_na(sum_per_date_name, 0) 
+    names(sum_per_date_name) <- capwords(names(sum_per_date_name))
+    
+    ## -----------------------------------------------------------------------------
+    ## Detail
+    
+    detail <- select(gambia,
+                     fullname, date, family_id, starttime, endtime, duration,
+                     consent, region_lb)
+    detail <- arrange(detail, desc(date), fullname)
+    
+    result_name_dict <- make_dict(c("region_lb",  
+                                    "lang", "hf_type", 
+                                    "facility_lb"),
+                                  c("Region",  
+                                    "Language", "Type", 
+                                    "Facility"))
+    names(detail) <- encode(names(detail), result_name_dict)
+    names(detail) <- capwords(names(detail))
+
+} else {
+    sum_per_date_name <- data.frame()
+    detail <- data.frame()
+}
+
+```
+
+
+# {.tabset}
+
+## **Summary**
+
+```{r, results='asis'}
+
+cat("<font size='3' color='#B4045F'><b>Total Interview: ", nrow(gambia), "</b></font><br>")
+cat("<font size='2' color='#298A08'><b>Total Success: ", nrow(gambia[gambia$consent == "Success", ]), "</b></font><br>")
+cat("<font size='2' color='#298A08'><b>Total Failed: ", nrow(gambia[gambia$consent == "Fail", ]), "</b></font><br>")
+cat("<font size='2' color='#298A08'><b>Total Refuse: ", nrow(gambia[gambia$consent == "Refuse", ]), "</b></font><br>")
+cat("<br>")
+
+if (nrow(sum_per_date_name) > 0) {
+    for (i in 1:length(username_dict)) {
+        sum_per_date_name_i <- filter(sum_per_date_name, Fullname == username_dict[i])
+        sum_per_date_name_i <- select(sum_per_date_name_i, - Fullname)
+        sum_per_date_name_i_rowsum <- sum_per_date_name_i %>% 
+                filter(Consent != "<font color='#298A08'><b>Total</b></font>") %>% 
+                summarise_at(names(.)[names(.) != c("Date", "Consent")], sum, na.rm = TRUE) %>% 
+                mutate(Date = "<font color='#B4045F'><b>Total</b></font>")
+        sum_per_date_name_i <- bind_rows(sum_per_date_name_i, sum_per_date_name_i_rowsum)
+        sum_per_date_name_i <- replace_with_na(sum_per_date_name_i, 0)
+        cat("<font size='3' color='#B4045F'><b>", username_dict[i], "</font></b>")
+        # print(kable(sum_per_date_i))
+        #     cat("\n")
+        print(kable(sum_per_date_name_i))
+        cat("\n")
+        
+    }
+} else cat("<font color='red'><b><div align='center'>Chưa có dữ liệu</div></b></font>")
+
+```
+  
+End  
+
+## **Detail**
+
+```{r detail, results='asis'}
+
+# cat("<font color='#B4045F'><b>Total Interview: ", 
+#     nrow(detail), "</b></font><br>")
+if (nrow(detail) > 0) {
+    for (i in 1:length(username_dict)) {
+        detail_i <- filter(detail, Fullname == username_dict[i])
+        detail_i <- select(detail_i, - Fullname)
+        cat("<font size='3' color='#B4045F'><b>", username_dict[i], "</b></font><br>")
+        for (k in 1:length(family)) {
+            detail_k <- filter(detail_i, Family_id == family[k])
+    	  	detail_k <- select(detail_k, - Family_id)
+            cat("<font color='#298A08'><b>Total Interview from", 
+                family[k], ": ", 
+                nrow(detail_k), "</b></font><br>")
+            if (nrow(detail_k) > 0) {
+                print(kable(detail_k))
+                cat("\n")
+            } else {
+			  
+			  cat("<font color='red'><b><div align='center'>Chưa có dữ liệu</div></b></font>")
+			  cat("<br>")
+			}
+            
+        }
+    }
+} else cat("<font color='red'><b><div align='center'>Chưa có dữ liệu</div></b></font>")
+#kable(detail)
+
+```
+
+End

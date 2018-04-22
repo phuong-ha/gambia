@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523193662741.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A7F2D7A0",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1523193662741,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "59DFA22F",
+        "caption" : "gambia_f1",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=gambia_f1&cache_key=59DFA22F",
+        "displayedObservations" : 1,
+        "environment" : "",
+        "object" : "gambia_f1",
+        "preview" : 0,
+        "totalObservations" : 1,
+        "variables" : 1844
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

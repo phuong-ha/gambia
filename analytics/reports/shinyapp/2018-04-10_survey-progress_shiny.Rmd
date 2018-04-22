@@ -1,0 +1,383 @@
+---
+title: "Survey Progress Report"
+author: "Real-time Analytics"
+date: "`r format(Sys.time(), '%d-%m-%Y %H:%M:%S')`"
+runtime: shiny
+output:
+    html_document:
+        theme: flatly
+params:
+    username: '$$FilterValue::get_user_info("##USERNAME##","username")$$'
+    userrole: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "user_role")$$'
+    fullname: '$$FilterValue::get_user_info(FilterValue::get_user_info("##USERNAME##","username"), "fullname")$$'
+    projcode: '$$FilterValue::get_my_projectcode()$$'
+    platform: '$$FilterValue::get_client_platform()$$'
+---
+
+
+
+```{r setup, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## global setup
+
+knitr::opts_chunk$set(echo = FALSE, comment = "", message = FALSE, warning = FALSE)
+options(shiny.sanitize.errors = FALSE, scipen = 999)
+Sys.setlocale(category = "LC_ALL", locale = "en_US.UTF-8")
+
+## -----------------------------------------------------------------------------
+## load packages
+
+RTA::load_packages(readr, tidyr, dplyr, DT, RTA)
+
+## -----------------------------------------------------------------------------
+## import data
+
+auto_import_all(site = params$projcode)
+report <- "~/MEGAsync/RTA/Analytic/gambia/analytics/reports/shinyapp/2018-04-10_survey-progress_shiny.Rmd"
+
+
+```
+
+
+
+```{r tranform-data, include=FALSE}
+
+## -----------------------------------------------------------------------------
+## NAME DICT
+
+col <- c("username", "fullname", #"staffcode", 
+         "submission_date", "starttime", "endtime",
+         "instanceID", "instanceName" ,"deviceid", "family_id", "consent")
+
+col_f1 <- c("f1_region_id", "f1_region_lb", "f1_lga_id", "f1_lga_code",
+            "f1_lga_lb", "f1_district_id", "f1_district_code", 
+            "f1_district_lb", "f1_village_id", "f1_village_lb", 
+            "f1_hf_id", "f1_hf_lb", "f1_hf_type",
+            "f1_result", "f1_result_other", "f1_tranlator",
+            "f1_lang", "f1_lang_other")
+col_name_f1 <- c("region_id", "region_lb", "lga_id", "lga_code",
+                 "lga_lb", "district_id", "district_code", 
+                 "district_lb", "village_id", "village_lb", 
+                 "facility", "facility_lb", "hf_type",
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_f2 <- c("f2_region", "f2_region_lb", "f2_lga_id", "f2_lga_code",
+            "f2_lga_lb", "f2_district_id", "f2_district_code",
+            "f2_district_lb", "f2_village_id", "f2_village_lb",
+            "f2_faci", "f2_faci_lb",
+            "f2_hf_type", 
+            "f2_control_3", "f2_control_3_other", 
+            "f2_control_4", "f2_control_5",
+            "f2_control_5_other")
+col_name_f2 <- c("region_id", "region_lb", "lga_id", "lga_code",
+                 "lga_lb", "district_id", "district_code",
+                 "district_lb", "village_id", "village_lb",
+                 "facility", "facility_lb",
+                 "hf_type", 
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+
+col_f3 <- c("f3_region", "f3_region_lb", "f3_h_facility",
+            "f3_h_facility_lb", 
+            "f3_control_3",
+            "f3_control_3_other", "f3_control_4", "f3_control_5",
+            "f3_control_5_other")
+col_name_f3 <- c("region_id", "region_lb", "facility", 
+                 "facility_lb", 
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_f4 <- c("f4_region", "f4_region_lb", "f4_h_facility",
+            "f4_h_facility_lb", 
+            "f4_control_3",
+            "f4_control_3_other", "f4_control_4", "f4_control_5",
+            "f4_control_5_other")
+col_name_f4 <- c("region_id", "region_lb", "facility", 
+                 "facility_lb", 
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_hh <- c("fh_region", "fh_region_lb", "fh_district",
+            "fh_district_lb", "fh_eacode", "fh_eacode_lb",
+            "fh_control_2", "fh_control_2_other",
+            "fh_control_3", "fh_control_4",
+            "fh_control_4_other")
+col_name_hh <- c("region_id", "region_lb", "district_id",
+                 "district_lb", "eacode", "eacode_lb",
+                 "result", "result_other", "tranlator",
+                 "lang", "lang_other")
+
+col_vdc <- c("vdc_region", "vdc_region_lb", "vdc_district",
+             "vdc_district_lb", "vdc_eacode", "vdc_eacode_lb",
+             "vdc_control_3", "vdc_control_3_other", 
+             "vdc_control_4", "vdc_control_5",
+             "vdc_control_5_other")
+col_name_vdc <- c("region_id", "region_lb", "district_id",
+                  "district_lb", "eacode", "eacode_lb",
+                  "result", "result_other", "tranlator",
+                  "lang", "lang_other")
+
+col_vsg <- c("vsg_region", "vsg_region_lb", "vsg_district", 
+             "vsg_district_lb", "vsg_eacode", "vsg_eacode_lb",
+             "vsg_facility", "vsg_facility_lb", "vsg_control_3",
+             "vsg_control_3_other", "vsg_control_4", "vsg_control_5",
+             "vsg_control_5_other")
+
+col_name_vsg <- c("region_id", "region_lb", "district_id", 
+                  "district_lb", "eacode", "eacode_lb",
+                  "facility", "facility_lb", 
+                  "result", "result_other", "tranlator",
+                  "lang", "lang_other")
+
+name_dict_f1 <- make_dict(col_f1, col_name_f1)
+name_dict_f2 <- make_dict(col_f2, col_name_f2)
+name_dict_f3 <- make_dict(col_f3, col_name_f3)
+name_dict_f4 <- make_dict(col_f4, col_name_f4)
+name_dict_hh <- make_dict(col_hh, col_name_hh)
+name_dict_vdc <- make_dict(col_vdc, col_name_vdc)
+name_dict_vsg <- make_dict(col_vsg, col_name_vsg)
+
+## -----------------------------------------------------------------------------
+## select column
+gambia_f1 <- select(gambia_f1, 
+                    col, col_f1)
+
+gambia_f2 <- select(gambia_f2,
+                    col, col_f2)
+
+gambia_f3 <- select(gambia_f3,
+                    one_of(col), col_f3)
+
+gambia_f4 <- select(gambia_f4,
+                    one_of(col), col_f4)
+
+gambia_hh <- select(gambia_hh,
+                    col, col_hh)
+
+gambia_vsg <- select(gambia_vsg,
+                     col, col_vsg)
+
+gambia_vdc <- select(gambia_vdc,
+                     col, col_vdc)
+
+## -----------------------------------------------------------------------------
+## change name
+names(gambia_f1) <- encode(names(gambia_f1), name_dict_f1)
+names(gambia_f2) <- encode(names(gambia_f2), name_dict_f2)
+names(gambia_f3) <- encode(names(gambia_f3), name_dict_f3)
+names(gambia_f4) <- encode(names(gambia_f4), name_dict_f4)
+names(gambia_hh) <- encode(names(gambia_hh), name_dict_hh)
+names(gambia_vdc) <- encode(names(gambia_vdc), name_dict_vdc)
+names(gambia_vsg) <- encode(names(gambia_vsg), name_dict_vsg)
+
+## -----------------------------------------------------------------------------
+## combine data
+gambia <- bind_rows(gambia_f1, gambia_f2, gambia_f3, gambia_f4,
+                    gambia_hh, gambia_vdc, gambia_vsg)
+
+## -----------------------------------------------------------------------------
+## clean data
+gambia <- replace_with_na(gambia)
+
+gambia <- mutate(gambia,
+                 date = substr(submission_date, 1, 10))
+
+## make dict
+username_dict <- distinct(gambia, username, fullname)
+username_dict <- make_dict(username_dict$username, username_dict$fullname)
+
+consent_dict <- make_dict(c(1:3), 
+                          c("Success", "Fail", "Refuse"))
+hf_type_dict <- make_dict(c(1, 2),
+                          c("Public Health Center", "Pubic Hospital"))
+
+result_dict <- make_dict(c(1:8, 96),
+                         c("INTERVIEW DONE", "PARTIALLY COMPLETED",
+                           "REGISTERED PERSON REFUSED INTERVIEW", "HOUSEHOLD MEMBERS NOT PRESENT",
+                           "HOUSEHOLD VACATED", "HOUSE ADDRESS NOT FOUND",
+                           "HH HEAD / OTHER REFUSED TO ALLOW INTERVIEW", 
+                           "Language not spoken, Interview not conducted",
+                           "OTHER, SPECIFY:"))
+
+lang_dict <- make_dict(c(1:6, 96),
+                       c("ENGLISH", "MADINKA", "WOLOF", "FULA",
+                         "JOLA", "SERER", "OTHER, SPECIFY:"))
+
+
+translator_dict <- make_dict(c(1:3),
+                             c("NEVER", "SOMETIMES", "ALWAYS"))
+
+form_dict <- make_dict(c("GAMBIA_EL_F1_HF_TEST", "GAMBIA_EL_F2_TEST",
+                         "GAMBIA_EL_F3_TEST", "GAMBIA_EL_F4_TEST",
+                         "GAMBIA_EL_HH_TEST", "GAMBIA_EL_VDC_TEST", "GAMBIA_EL_VSG_TEST"),
+                       c("F1", "F2",
+                         "F3", "F4",
+                         "HH", "VDC", "VSG"))
+
+
+gambia <- mutate(gambia,
+                 fullname = encode(fullname, username_dict),
+                 consent = encode(consent, consent_dict),
+                 hf_type = encode(hf_type, hf_type_dict),
+                 result = encode(result, result_dict),
+                 lang = encode(lang, lang_dict),
+                 result = ifelse(is.na(result_other), result, 
+                                 paste0(result, " ", result_other)),
+                 lang = ifelse(is.na(lang_other), lang, 
+                               paste0(lang, " ", lang_other)),
+                 tranlator = encode(tranlator, translator_dict),
+                 family_id = encode(family_id, form_dict),
+                 # starttime = substr(starttime, 12, 19),
+                 # endtime = substr(endtime, 12, 19),
+                 endtime = ifelse(is.na(endtime) | endtime == "", submission_date, endtime),
+                 starttime = ifelse(is.na(starttime) | endtime == "", submission_date, starttime),
+                 duration = round(difftime(strptime(endtime, format = "%Y-%m-%d %H:%M:%S"),
+                                     strptime(starttime, format = "%Y-%m-%d %H:%M:%S"), 
+                                     units = "mins"), 2),
+                 duration = as.double(duration))
+family <- distinct(gambia, family_id) %>% filter(!is.na(family_id)) %>% unlist()
+
+
+if (Sys.info()["user"] != "phuongha") {
+    user_name <- '$$FilterValue::get_user_info("##USERNAME##","username")$$'
+
+    gambia <- filter(gambia, username == user_name)
+}
+
+
+
+theme <- hc_theme(
+  chart = list(
+    plotBorderColor = '#606063',
+            style = list(
+              fontFamily = "Roboto",
+              color = '#3C3C3C'
+            )
+  ),
+  title = list(
+    align = "left",
+    x = 70,
+    style = list(
+      fontWeight = "bold"
+    )
+  ),
+  subtitle = list(
+    align = "left",
+    x = 70
+  )
+)
+
+plot_progress_by_day <- function(df) {
+    df <- count(df, date)
+    hchart(df, "column",
+           hcaes(date, n),
+           color = "#228B22",
+           names = "Instance") %>%
+    # hc_legend(enabled = FALSE) %>%
+        hc_xAxis(categories = df$date,
+                 title = list(enabled = FALSE)) %>% 
+        hc_yAxis(title = list(text = "Number of instances per day",
+                              style = list(fontSize = "15px")),
+                 align = "left",
+                 showFirstLabel = FALSE,
+                 showLastLabel = FALSE) %>%
+        hc_title(text = paste("Total interviews conducted:", sum(df$n))) %>%
+        hc_subtitle(text = paste("Updated:",
+                                 paste0(df$date[nrow(df)]))) %>%
+        hc_credits(enabled = TRUE,
+                   text = "www.rta.vn",
+                   href = "http://www.rta.vn/",
+                   style = list(color = "darkgreen",
+                                fontFize = "15px")) %>%
+        hc_add_theme(theme) %>%
+        hc_exporting(enabled = TRUE) %>% 
+        hc_plotOptions(series = list(stacking = "normal"))
+}
+
+plot_interview_time <- function(df) {
+    hchart(df$duration, group = df$family_id) %>%
+        hc_legend(enabled = FALSE) %>%
+        hc_title(text = "Distribution of interview time") %>%
+        hc_xAxis(title = list(text = "Interview duration (unit: minute)")) %>%
+        hc_yAxis(title = list(text = "Number of instances")) %>%
+        hc_credits(enabled = TRUE,
+                   text = "www.rta.vn",
+                   href = "http://www.rta.vn/",
+                   style = list(color = "darkgreen",
+                                fontFize = "15px")) %>%
+        hc_add_theme(theme) %>%
+        hc_exporting(enabled = TRUE)
+}
+
+plot_progress_by_var <- function(df, var, name_title, types = "bar" ,colors = "#228B22") {
+    if(nrow(df) > 0) {
+        df <- count(df, new = df[[var]])
+        df <- arrange(df, desc(n))
+        hchart(df, type = types, hcaes(new, n), color = colors, name = "Instance") %>%
+            hc_legend(enabled = FALSE) %>%
+            hc_xAxis(categories = ifelse(length(df$new) == 1, as.list(df$new), df$new),
+                     title = list(enabled = FALSE)) %>%
+            hc_yAxis(title = list(text = "Number of instances",
+                                  style = list(fontSize = "15px")),
+                     align = "left",
+                     showFirstLabel = FALSE,
+                     showLastLabel = FALSE) %>%
+            hc_title(text = name_title) %>%
+            hc_credits(enabled = TRUE,
+                       text = "www.rta.vn",
+                       href = "http://www.rta.vn/",
+                       style = list(color = "darkgreen",
+                                    fontFize = "15px")) %>%
+            # hc_add_series(name = "Instance",
+            #              data = df$n,
+            #              color = colors,
+            #              type = types) %>%
+            hc_add_theme(theme) %>%
+            hc_exporting(enabled = TRUE)
+    }
+    
+}
+
+
+table_per_var_and_date <- function(df, var) {
+    
+    
+    if (nrow(df) > 0) {
+        df <- df %>% 
+        count(new = df[[var]], date) %>% 
+        spread(new, n)
+    names(df) <- capwords(names(df))
+        kable(df)
+    } else cat("<font color='red'><b>There isn't any data at this moment</b></font><br>")
+    
+}
+
+F1 <- filter(gambia, family_id == "F1")
+F2 <- filter(gambia, family_id == "F2")
+F3 <- filter(gambia, family_id == "F3")
+F4 <- filter(gambia, family_id == "F4")
+HH <- filter(gambia, family_id == "HH")
+VDC <- filter(gambia, family_id == "VDC")
+VSG <- filter(gambia, family_id == "VSG")
+
+```
+
+
+
+```{r server-processing, include=FALSE}
+
+## define your app's server logic here
+
+
+```
+
+--------------------------------------------------------------------------------
+
+```{r ui}
+
+## define your app's interfaces here
+
+```
